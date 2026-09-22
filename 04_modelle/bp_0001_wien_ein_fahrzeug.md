@@ -11,7 +11,7 @@
 | Konzession | Eine Konzession im Referenzmodell |
 | Fahrzeug | Ein standardmäßiger Pkw-Taxi mit TX-Kennzeichen |
 | Fahrende Person | Ein Gesellschafter der Gesellschaft; konkrete Gesellschafterstellung gesondert prüfen |
-| Beschäftigte | Keine im Referenzprofil |
+| Beschäftigte | Keine in der betrachteten operativen OG/KG |
 | Sonderbeförderung | Kein Schülertransport, keine Krankenbeförderung und keine besondere Behindertenbeförderung |
 | Fahrtziel | Vom Fahrgast gewünschtes Ziel; grenzüberschreitende Anforderungen nicht pauschal abgedeckt |
 | Auftragskanäle | Uber, Bolt, FREENOW, Taxifunk; begrenzte direkte Web-/WhatsApp-Anfragen als Untersuchungsumfang |
@@ -21,6 +21,8 @@
 ## Gesellschaftsbezug
 
 Die konkreten Personen, Rechtsstellungen, Konzessionsdaten, Fahrzeugdaten, Vertragsfassungen und Rollenbestellungen werden erst anhand berechtigter Originalunterlagen festgestellt. Die Überschrift OG/KG ersetzt diese Prüfung nicht. Die Rolle und Leistung von KMS sind Gegenstand von MA-0001, keine in diesem Profil bereits bestätigte Einzelfalltatsache.
+
+Die Merkmale dieses Profils gelten nicht automatisch für KMS oder andere beteiligte Organisationen. Deren Personal, Aufgaben, Befugnisse und gemeinsam eingesetzte Betreuungskapazität sind gesondert zu untersuchen. Aus „keine Beschäftigten in der operativen OG/KG“ folgt hier keine Aussage über die personelle Organisation von KMS.
 
 ## Änderungen des Rahmens
 

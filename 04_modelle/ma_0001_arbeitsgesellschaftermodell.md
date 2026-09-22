@@ -58,4 +58,4 @@ Abweichungen als Befund, nicht sofort als Vertragsverletzung oder Rechtsmangel f
 
 Eine beurteilbare Akte nennt Voraussetzungen, Varianten, Gegenbelege, Kosten, Befugnisse, nötige Kontrollen, ungeklärte Punkte und nächsten Entscheidungsbedarf. Kritische Unsicherheiten bleiben sichtbar. Die Zuordnung von Leistung zu Befugnis, Aufwand und Kontrollmöglichkeit muss nachvollziehbar sein.
 
-Ein Modellpaket und eine reale Erprobung benötigen danach einen ausdrücklich festgelegten Umfang. Die Szenarien in [Anwendung und Prüfung](../06_anwendung_und_pruefung/szenariopruefungen.md) sind vorbereitet, aber nicht durchgeführt.
+Ein Modellpaket und eine reale Erprobung benötigen danach einen ausdrücklich festgelegten Umfang. Der begrenzte Methodendurchlauf in [Anwendung und Prüfung](../06_anwendung_und_pruefung/szenariopruefungen.md) ersetzt keine tatsächliche Untersuchung dieses Modells. Die fachlichen Zustände dieser Akte bleiben unverändert.

@@ -13,4 +13,6 @@ Vorlagen sind Arbeitsformen, keine bereits ausgefüllten Akten oder freigegebene
 
 Vorlagen passend zum tatsächlichen Umfang verwenden. Keine Pflicht zu sechs neuen Dateien für eine kleine Frage. Eine gemeinsame Akte ist zulässig, wenn die unterschiedlichen Aussagen, Zustände und Quellen nachvollziehbar bleiben.
 
-Neue reale Akten erhalten die nächste freie Kennung im passenden Register. Vorlage selbst hat keine Aktenidentität. Keine Personen, Prüfer, Zustimmungen oder Datumswerte automatisch vorbelegen.
+Neue Quellen, Profile, Modellakten und Entscheidungen erhalten ihre Kennung im vorhandenen Quellen-, Modell- bzw. Entscheidungsregister. Für eine untergeordnete Forschung, Bewertung, einen Prozess oder eine Kontrolle genügt ein eindeutiger Abschnitt der bestehenden Akte nach den [aussagebezogenen Verweisen](../00_systemkern/arbeitsweise_und_freigaben.md#aussagebezogene-verweise). Dafür kein bisher nicht vorhandenes Register voraussetzen oder allein zur Nummernvergabe anlegen. Originalschlüssel behalten ihren Quellenbezug.
+
+Die Vorlage selbst hat keine Aktenidentität. Keine Personen, Prüfer, Zustimmungen oder Datumswerte automatisch vorbelegen.

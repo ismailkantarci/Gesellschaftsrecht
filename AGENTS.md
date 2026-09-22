@@ -30,6 +30,8 @@ Die elf Fachgebiete gemeinsam berücksichtigen, wenn eine Änderung mehrere Pers
 
 Keine vertraulichen Originalverträge, Anwaltspost, Ausweise, personenbezogenen Gesellschaftsakten, Kontodaten oder Zugangsdaten veröffentlichen. Public/Private ist vor einem Import aktuell zu prüfen. Eine private Einstellung ersetzt nicht Berechtigung und Datenminimierung.
 
+Temporäre Prüfeingaben, fiktive Datensätze, Hilfsskripte und Rohprotokolle außerhalb des Repositorys halten und nicht veröffentlichen. Dauerhaft bleiben nur notwendige fachliche Korrekturen und ein knapper, nachvollziehbarer Prüfvermerk im vorhandenen passenden Eintrag. Keine neuen Berichts- oder Registerebenen allein für den Prüfnachweis. Eigene Hilfsdateien nach der Prüfung entfernen; fremde oder vorbestehende Dateien nicht als Testreste behandeln. Offene Befunde werden durch Bereinigung weder gelöscht noch als erledigt dargestellt.
+
 Vor Abschluss relative Links, doppelte Identitäten, offene Platzhalter, widersprüchliche Aussagen und Quellenbezüge prüfen. Commit und Dateien vom Dienst zurücklesen. Strukturelle Prüfung nicht als rechtliche Prüfung oder Wirksamkeitsbeleg ausgeben.
 
 Bericht: tatsächlich geänderte Inhalte, überprüfter Repository-Stand, Prüfungen und ihre Grenzen, ausdrücklich offene Arbeit. Keine Zeitpläne oder Hintergrundarbeit behaupten, die nicht eingerichtet wurden.

@@ -12,6 +12,14 @@ Kleine Fragen können in einer bestehenden Akte bearbeitet werden. Eine neue Akt
 
 Jede wesentliche Aussage wird als Quellenbehauptung, beobachtete Tatsache, Interpretation, Hypothese, Vorschlag oder Entscheidung erkennbar. Herkunft, genaue Fundstelle, maßgeblicher Stand und Prüfgrenze dokumentieren. Bei Fachfragen zuerst einschlägige Primärquellen; Sekundärmeinungen als solche kennzeichnen. Widersprüche sichtbar halten und begründet auflösen, nicht per Mehrheitszählung oder neuestem Dateinamen.
 
+## Aussagebezogene Verweise
+
+Entscheidungstragende Aussagen erhalten einen eindeutigen Bezug innerhalb ihrer bestehenden Akte: Aktenkennung und benannter Abschnitt genügen. Eine eigene Datei oder ein neues Register ist dafür nicht erforderlich. Herkunft bleibt beim Original, Bewertung in der zuständigen Fachakte; die Modellakte verbindet sie, ohne sie erneut abzuschreiben.
+
+Für eine fachliche Abhängigkeit die betroffene Aussage, den genauen Gegenstand der Beziehung, dessen maßgebliche Fassung/Fundstelle und die Bedeutung der Verbindung angeben: etwa stützt, widerspricht, setzt voraus, prüft oder ersetzt. Verweist ein Dokument nur zur Orientierung auf eine Fachseite, ist das noch keine Abhängigkeit von sämtlichen Aussagen dieser Seite. Quellenart, Anwendbarkeit und Prüfgrenze bleiben erkennbar; ein Link allein bestätigt keine Aussage.
+
+Fehlende Information erhält einen Beschaffungsweg, verantwortliche Bearbeitung oder ausdrücklich offene Zuständigkeit, den betroffenen Ergebnisumfang und einen nächsten Prüfzeitpunkt oder Auslöser. Fehlende Zuständigkeit nicht durch einen erfundenen Namen lösen. Ein begründet abgegrenztes Ergebnis darf weiterbearbeitet werden; eine erforderliche Zustimmung wird dabei nicht ersetzt. Ist keine Entscheidung nötig, gilt diese Begründung nur für den bezeichneten Arbeitsschritt.
+
 ## Getrennte Zustandsachsen
 
 | Achse | Arbeitswerte |

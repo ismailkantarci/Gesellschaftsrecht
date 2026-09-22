@@ -12,6 +12,8 @@ Problem, Beteiligte, Nutzenversprechen, vorhandene Praxis, Alternativen und noch
 
 ## Fachliche Zusammenstellung
 
+Je entscheidungstragender Verbindung Aussage/Abschnitt, genaue Fassung und Fundstelle sowie die Beziehung zur Bewertung oder zum folgenden Prozess nennen; maßgeblich sind die [aussagebezogenen Verweise](../00_systemkern/arbeitsweise_und_freigaben.md#aussagebezogene-verweise). Die Tabelle ist Navigation zu diesen Bewertungen, kein Ersatz für sie. Offene Voraussetzungen mit Beschaffungsweg und betroffener Ergebnisgrenze verknüpfen.
+
 | Perspektive | Maßgebliche Bewertung/Quelle | Offene Frage |
 |---|---|---|
 | Nutzen und Wertschöpfung | auszufüllen | auszufüllen |

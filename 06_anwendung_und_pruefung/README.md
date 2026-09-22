@@ -20,4 +20,4 @@ Kontrolldefinition, tatsächliche Durchführung, konkreter Beleg und Bewertung g
 
 Abschluss enthält Prüfumfang, Methode, Beobachtungen, offene Punkte und verantwortliche Bewertung. Eine interne Abschlussnotiz beendet kein externes Verfahren automatisch. Später auftauchende Gegenbelege eröffnen die betroffene Bewertung erneut, ohne die frühere Prüfung zu löschen.
 
-Arbeitsformen: [Prozess und Kontrolle](../08_vorlagen/prozess_und_kontrolle.md), [Nachweisbewertung](../08_vorlagen/nachweisbewertung.md). Vorbereitete [Szenarioprüfungen](szenariopruefungen.md) sind keine bereits erzielten Ergebnisse.
+Arbeitsformen: [Prozess und Kontrolle](../08_vorlagen/prozess_und_kontrolle.md), [Nachweisbewertung](../08_vorlagen/nachweisbewertung.md). Bei den [Szenarioprüfungen](szenariopruefungen.md) sind vorbereitete Fälle und der tatsächlich dokumentierte Methodendurchlauf getrennt ausgewiesen. Eine Methodenprüfung ist kein betrieblicher Wirksamkeitsnachweis.
