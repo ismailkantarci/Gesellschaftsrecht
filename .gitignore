@@ -1,0 +1,26 @@
+# Lokale Arbeitsreste
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+__pycache__/
+
+# Keine Zugangsdaten oder lokalen Geheimnisse
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+geheimnisse/
+vertraulich/
+lokale_originale/
+
+# Originalimporte erst nach eigener Schutz- und Ablageentscheidung
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.zip
+*.7z
