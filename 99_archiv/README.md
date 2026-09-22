@@ -7,3 +7,9 @@ Vor einer Archivierung Identität, bisherige Fassung, Anlass, Datum, Status und 
 Ein offener Punkt wird nicht durch Verschieben erledigt. Historie ersetzt keine notwendige Korrektur, Prüfung oder Entscheidung. Vertrauliche Inhalte unterliegen auch im Archiv dem [Informationsschutz](../00_systemkern/informationsschutz.md).
 
 Dateikopien nicht allein zur Erhöhung der Versionszahl anlegen. Für normale redaktionelle Änderung genügt nachvollziehbare Git-Historie; fachlich maßgebliche frühere Stände werden bei Bedarf zusätzlich ausdrücklich bezeichnet.
+
+## Abgrenzung zum Arbeitsjournal und Forschungsbestand
+
+Das aktive [Arbeitsjournal](../09_arbeitsjournal/README.md) bleibt für den Neueinstieg direkt erreichbar und wird nicht als veraltete Arbeitsanweisung im Archiv abgelegt. Ein alter externer Vertrag kann eine aktuelle Forschungsquelle in [Quellen und Bestand](../01_quellen_und_bestand/README.md) sein. Alter allein bestimmt weder Archivierung noch fachliche Unbrauchbarkeit.
+
+Journalereignisse werden nicht still verschoben oder gelöscht. Ein späterer Aufbewahrungs-/Datenschutzfall benötigt einen ausdrücklich befugten, quellenbezogenen Umgang; technische Append-only-Prüfung ist keine unbegrenzte gesetzliche Aufbewahrungspflicht.

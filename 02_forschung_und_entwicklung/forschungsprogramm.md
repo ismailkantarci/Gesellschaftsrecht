@@ -11,4 +11,10 @@ Stand: 22.09.2026. Vorbereitete Fragestellungen, keine bereits durchgeführten U
 | Welche Kontrollen sind durchführbar und welches Problem erkennen sie wirklich? | Befugnisse, Informationszugang, verfügbare Zeit und Prüfszenarien | Geeignete Verfahren, bekannte Blindstellen und Nachweisweg |
 | Was geschieht bei Änderung, Ausfall oder Beendigung? | Relevante Vereinbarungen, Abhängigkeiten und betriebliche Abläufe | Durchführbare Übergänge ohne verdeckte Verantwortungslücken |
 
-Erster zusammenhängender Arbeitsgegenstand ist [MA-0001](../04_modelle/ma_0001_arbeitsgesellschaftermodell.md). Nicht alle Fragen gleichzeitig aktivieren: zuerst sichere Bestandsaufnahme und Leistungs-/Befugnisabgleich, dann die hiervon abhängigen Bewertungen.
+Erster zusammenhängender Arbeitsgegenstand ist [MA-0001](../04_modelle/ma_0001_arbeitsgesellschaftermodell.md). Nicht alle Fragen gleichzeitig aktivieren. Die sachliche Modellbewertung beginnt mit sicherer Bestandsaufnahme und Leistungs-/Befugnisabgleich. Davon unabhängige, ausdrücklich beauftragte Methodenarbeit muss nicht auf Gesellschaftsunterlagen warten.
+
+## Verfolgung und Fortsetzung
+
+Die Auswahlregel steht ausschließlich in der [Arbeitssteuerung](../00_systemkern/arbeitsweise_und_freigaben.md#arbeitssteuerung-und-priorisierung). Die reale Bestandsarbeit von MA-0001 wird in [Issue 1](https://github.com/ismailkantarci/Gesellschaftsrecht/issues/1) koordiniert. Dessen Status nicht aus der Fertigstellung einer Methodendatei ableiten.
+
+Der Methodenauftrag gemäß [ENT-0002](../05_entscheidungen/ent_0002_arbeitssteuerung_und_journal.md) wird durch seinen begrenzten Ergebniseintrag im [Arbeitsjournal](../09_arbeitsjournal/README.md) übergeben. Ein späterer Bearbeiter prüft dort Herkunft und Ergebnisgrenze, danach den aktuellen Auftrag. Das Journal begründet kein fortlaufendes Arbeitsmandat.

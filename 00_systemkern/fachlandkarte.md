@@ -35,3 +35,9 @@ Stand: 22.09.2026. Die Karte beschreibt die beauftragte Inhaltsarchitektur, nich
 Originalbeleg und Herkunft gehören in die Quellenordnung; Interpretation in die jeweilige Fachbewertung; Varianten und Gegenbelege in die Forschungsakte; aktuelle Modellzusammenstellung in die Modellakte. Die Entscheidung bleibt im Entscheidungsregister. Durchführung und Nachweisbewertung gehören zur konkreten Anwendung.
 
 Eine Compliance-Pflicht kann Vertragsgestaltung und Kontrollsystem beeinflussen. Sie wird deshalb nicht dreimal als unabhängig pflegbare Wahrheit abgeschrieben. Verweise nennen Quelle und maßgebliche Fassung. Ein Modellpaket bündelt Referenzen und festgelegte Stände, keine konkurrierenden Kopien.
+
+## Arbeitsgedächtnis und Auffindbarkeit
+
+Das [Arbeitsjournal](../09_arbeitsjournal/README.md) hält Auftrag, Bearbeiter, Ausgangsstand, ausgeführte Arbeit, Ergebnisverweise, Prüfgrenzen und Fortsetzung. Es enthält keine zweite Vertragsfassung, keine neue Fachwahrheit und keinen allein maßgeblichen Live-Arbeitsstatus. Entscheidungen bleiben im Entscheidungsregister; das Journal verweist auf sie.
+
+Historische Vertragsfassungen und ihre gesicherte Herkunft: [Quellenaufnahme](../01_quellen_und_bestand/README.md#historische-vertragsfassungen-als-forschungsbestand). Fassungsvergleich und neue Klauselvorschläge: [Vertragsentwicklung](../03_fachgebiete/vertraege_und_regelwerke.md#fassungsvergleich-und-entwicklung). Wiederverwendbare Arbeitsabläufe: zuständige Modell-/Fachakte mit [Prozessvorlage](../08_vorlagen/prozess_und_kontrolle.md). Einzelne Durchführung und Nachweis: Gesellschaftsanwendung. Ersetzte eigene Fachstände: Archiv. Diese Ablagearten dürfen zeitlich alte Inhalte enthalten, sind aber nicht austauschbar.

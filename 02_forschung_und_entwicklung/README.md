@@ -27,3 +27,11 @@ Auswertung darf ergeben, dass die Variante verworfen oder eingeschränkt wird. E
 ## Arbeit beenden oder zurückstellen
 
 Untersuchung beenden, sobald weitere Arbeit die anstehende Entscheidung voraussichtlich nicht verändert. Bei fehlenden Informationen genau festhalten, welche Information durch wen oder aus welcher Quelle beschafft werden muss. Zurückstellung erhält Grund und Wiederaufnahmeauslöser; kein unbegrenztes Recherchieren ohne Entscheidungspunkt.
+
+## Arbeitsaufnahme und Messbarkeit
+
+Aufnahme, Reihenfolge und Bearbeitbarkeit richten sich nach der [Arbeitssteuerung](../00_systemkern/arbeitsweise_und_freigaben.md#arbeitssteuerung-und-priorisierung). Das Forschungsprogramm ist eine Landkarte der Fragen, keine zweite Live-Aufgabenliste. Pro Auftrag den maßgeblichen Verfolgungsort nennen.
+
+Jede tragende Nutzenhypothese erhält eine beobachtbare Größe, erwartete Richtung, Betrachtungszeitraum und Ausgangslage oder einen konkreten Beschaffungsweg. Aufwand, Unsicherheit und mögliche Schäden getrennt betrachten. Vor einem Versuch bestimmen, welche Beobachtung die Hypothese widerlegen würde und unter welchen Bedingungen die Untersuchung endet oder zurückgestellt wird. Unbelegte Schwellen sind Planannahmen, keine gemessenen Ergebnisse.
+
+Eine Forschungsakte kann bereits mit einer präzisen offenen Frage beginnen. Fehlen Voraussetzungen für eine Sachentscheidung, darf ihr Resultat eine beschaffbare Eingabenliste oder begründete Nichtentscheidbarkeit sein. Leere Platzhalter, unendlich wachsende Themenlisten und bloße Wiederholung sind keine Forschungsergebnisse. Auch ein Nullbefund erhält seinen geprüften Umfang und einen nächsten Schritt im [Journal](../09_arbeitsjournal/README.md).

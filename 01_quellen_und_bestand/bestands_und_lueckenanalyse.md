@@ -39,3 +39,39 @@ Zuerst Herkunft und Anwendungsrahmen klären. Dann in MA-0001 tatsächliche Leis
 ## Grenze der Vollständigkeit
 
 Die Einrichtung bewahrt den hier beauftragten Inhalt. Sie ist weder eine vollständige Wiederherstellung aller früheren Chats noch der vollständige Import aller Verträge und Arbeitsmappen. Fehlende Originale und nicht beauftragte Untersuchungen bleiben als solche benannt.
+
+## Tiefenabgleich mit der angenommenen Konzeption
+
+**Prüfbasis:** die 46 Dateien des Ausgangsbaums `3d420e317c1201f074124edf0b95a94e56469903` zu Commit `35293d17a1b76a89d4b2385bf2b972a3798d8c98` sowie die in dieser Auftragsfolge angenommenen Erläuterungen. Die lokal verfügbare Einrichtungskopie wurde vor Bearbeitung mit den späteren, vom Dienst gelesenen Fassungen abgeglichen; der vollständige Ausgangsbaum stimmt überein. Keine andere Repository-Konzeption wurde übernommen. Die folgende Tabelle prüft Methodenabdeckung, nicht tatsächlichen Geschäftserfolg oder Vollständigkeit aller Unternehmensdaten.
+
+| Angenommener Bedarf | Befund am Ausgangsstand | Maßgeblicher Ort und Behandlung |
+|---|---|---|
+| Eigenständiger deutscher Fachkern, Wertschöpfung und Absicherung | Ausdrücklich beschrieben | Systemauftrag und ENT-0001 erhalten; keine Unterordnung unter Softwarekern |
+| Elf fachliche Perspektiven, keine reine Vertragssammlung | Leitfragen, Arbeitsprodukte, Abnahme und Querverbindungen vorhanden | Fachlandkarte und Fachgebiete erhalten; keine zusätzlichen Fachgebiete allein zur Vergrößerung |
+| Modell, einzelne Gesellschaft und gemeinsame Abhängigkeiten | Getrennt definiert; Beschäftigtenfreiheit auf operative OG/KG begrenzt | Begriffe, BP-0001 und Modellregister erhalten; keine aktuellen Personenrollen abgeleitet |
+| Ideen, Forschung, Varianten, Gegenbelege und Stoppbedingungen | Methode vorhanden, Aufnahme/Ranking nur grob | [Arbeitssteuerung](../00_systemkern/arbeitsweise_und_freigaben.md#arbeitssteuerung-und-priorisierung) ergänzt; Programm verlinkt statt doppelt zu steuern |
+| Nutzen, falsifizierbare Annahmen und begrenzte Erprobung | Nutzen-/Messplan und Abbruchgedanke vorhanden; Felder verstreut | Forschungsweg und Forschungsvorlage konkretisiert; keine Messwerte erfunden |
+| Priorität, Bearbeitbarkeit, Prüftiefe und Befugnis | Nicht ausdrücklich als vier Arbeitsfragen verbunden | In bestehender Arbeitsweise getrennt und an Übergabe angebunden |
+| Redaktionelle, methodische und wesentliche Änderung | Wirkungsprinzip vorhanden; konkrete Auswahl fehlte | Drei Prüftiefen mit Umstufung, betroffener Reichweite und Kompetenzgrenze ergänzt |
+| Wirtschaft, Liquidität, Routine-/Ausnahme-/Kontrollaufwand und Reserve | Vergleichsgrundlagen und Belastungsszenarien vorhanden | Wirtschaftlichkeitsseite erhalten; echte Zeiten, Zahlen und Fachbewertung bleiben offen |
+| Leistung, Fixum, Zusatzleistung, Empfänger, Schuldner und Zahler | Getrennte Untersuchungsdimensionen vorhanden | Leistungsseite erhalten; keine aktuellen Ansprüche oder Preise erzeugt |
+| Rechte, Beiträge, Vertretung, Leitung, Einfluss und Kontrollmöglichkeit | Getrennte Dimensionen und Konfliktprüfung vorhanden | Kooperations-/Führungsseiten erhalten; externe Befugnisse nicht aus dem Journal abgeleitet |
+| Alte Gesellschaftsverträge als Entwicklungsquellen | Grundregel und QU-0003 vorhanden, Ablauf knapp | [Quellenaufnahme](README.md#historische-vertragsfassungen-als-forschungsbestand) und [Fassungsvergleich](../03_fachgebiete/vertraege_und_regelwerke.md#fassungsvergleich-und-entwicklung) vertieft; Originale weiter nicht importiert |
+| Arbeitsablauf versus Durchführung, Beleg und Prüfung | Inhaltlich getrennt, Benutzerroute nur indirekt | Prozessvorlage und Anwendungsbereich mit ausdrücklicher Zuordnung ergänzt |
+| Ergebnisübernahme, Inhaltsprüfung, Verwendung und Gesamtabschluss | Teilweise implizit, keine zusammenhängende Übergabemethode | [Ergebnisübergabe](../08_vorlagen/prozess_und_kontrolle.md#ergebnisübergabe-und-annahme) mit Fassung, Rückgabe, Teilannahme und Nachfassrolle ergänzt |
+| Gesetzliche/behördliche/vertragliche/interne Anforderungen | Quellenart, Anwendbarkeit und Prüfgrenzen vorhanden | Compliance-Methode erhalten; v0.8 nicht erneut rechtlich geprüft |
+| Risiken jenseits von Rechtsverstößen | Nutzen-, Kapazitäts-, Informations- und Abhängigkeitsrisiken vorhanden | Risikoseite erhalten; Behandlung ohne erfundene Wahrscheinlichkeiten |
+| Kontrollrecht, Eignung, Durchführbarkeit, Durchführung und Wirkung | Getrennt; ausgebliebene Kontrolle in erster Kernprüfung präzisiert | Bestehende Kontrollmethoden erhalten, keine bloße Bestätigung von Regeln als Wirkungsnachweis |
+| Quellenstand, Aussagebezug und Änderungsfolgen | Aussage-/Fassungsbezug und Rückverfolgung vorhanden | Vorhandene Verbindungen erhalten; neue Methoden-/Journalverweise eingehängt |
+| Gründung, Änderung, Ruhen, Krise, Ausfall und Beendigung | Lebenszyklus und erforderliche Übergangsprüfung vorhanden | Bestehenden Bereich erhalten; keine gesellschaftliche Chronik vorgetäuscht |
+| Information, Geheimhaltung, Original/Ableitung und sichere Ablage | Ausdrücklich beschrieben | Auf Journalmetadaten und Berichtsinhalt erstreckt; Privacy-Prüfung bleibt menschlich erforderlich |
+| Befugte Entscheidungen und nicht rückwirkende Statuspflege | Entscheidungstypen und fünf fachliche Zustandsachsen vorhanden | ENT-0002 ergänzt; fremde Zustimmung, Fachfreigabe und technische Veröffentlichung bleiben getrennt |
+| Neue Menschen/Agenten ohne Gesprächsgedächtnis | Lesereihenfolge vorhanden; Arbeitsverlauf nur in Commit/Prüfnotiz | Einstieg aktualisiert, dauerhafte Auftragssubstanz und Journal eingeführt; kein unabhängiger Neueinstiegstest behauptet |
+| Jeder beauftragte Bearbeiter berichtet Tätigkeit und Übergabe | Eigenständiges Journal nicht vorhanden | Schema, Vorlage, Ereignisbeziehungen und begrenzter Validator eingeführt; anonyme Leser und Umgehungen nicht erfasst |
+| Saubere Ablage ohne Prüfrestmüll | Organisatorische Bereinigungsregel vorhanden | Beibehalten; nur ausdrücklich benötigte Journalwartung dauerhaft ergänzt |
+
+**Ergebnis:** Die erste Einrichtung trug bereits die fachliche Breite, aber nicht jede im Gespräch erläuterte Handlungsregel war ausreichend konkret. Die hier genannten Methoden wurden an den vorhandenen Eigentümerstellen vertieft. Nicht jede kurze Fachseite ist deshalb ein Mangel: dort beschriebene sachliche Arbeitsprodukte müssen später mit echten Quellen erarbeitet werden und werden nicht durch zusätzliche abstrakte Texte ersetzt.
+
+**Bewusst offen:** vollständige Aufnahme der Vertragsfamilien, fachliche Bewertung von MA-0001, aktuelle Rechts-/Steuerprüfung, echte Leistungs-/Kapazitätsdaten, konkrete Gesellschaftsanwendungen und betriebliche Wirksamkeit. Die acht bisher nicht durchgeführten Szenarien bleiben außerhalb der früheren Viererprüfung. Unabhängige Fremdprüfung und technischer Schutz gegen jede Journalumgehung sind nicht bewiesen. Diese offenen Ergebnisse sind keine versteckten leeren Ordner und werden nicht als erledigt übergeben.
+
+Die Prüf- und Fortsetzungsspur des aktuellen Methodenauftrags liegt im [Arbeitsjournal](../09_arbeitsjournal/README.md); dies ist keine zweite Liste aktueller Einzelaufgaben.

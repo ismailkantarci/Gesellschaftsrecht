@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "eintrag_id": "505ad5fe-09d4-4011-955b-25e53b33a5b6",
+  "auftrag_id": "4ac3aa22-25e2-499e-99d6-762152dbf502",
+  "uebergeordneter_auftrag": null,
+  "ereignis": "zwischenstand",
+  "zeitpunkt": "2026-09-22T20:59:46Z",
+  "akteur": {
+    "bezeichnung": "ChatGPT",
+    "typ": "ki",
+    "rolle": "Beauftragte Wiederaufnahme der Paketübertragung"
+  },
+  "vorgaenger": [
+    "29f3f136-812d-4b8d-a81b-94a1fb289c5b"
+  ],
+  "korrektur_fuer": [],
+  "auftrag": {
+    "quelle": "05_entscheidungen/ent_0002_arbeitssteuerung_und_journal.md",
+    "zusammenfassung": "Der Auftraggeber hat im anschließenden Chat ausdrücklich um erneuten Übertragungsversuch gebeten: sen tekrar dene , aktarmayi. Fortsetzung des vorhandenen Methoden-/Journalauftrags, keine neue Fachgestaltung.",
+    "erlaubter_umfang": [
+      "Vorbereitetes Methoden-/Journalpaket anhand seiner Prüfsummen prüfen und regulär nach Gesellschaftsrecht übertragen",
+      "Übertragungsversuch und tatsächliches Ergebnis im bestehenden Journalauftrag ergänzen",
+      "Zielstand und verfügbares Workflow-Ergebnis vom Dienst zurücklesen"
+    ],
+    "ausgeschlossen": [
+      "Keine fremden Änderungen überschreiben oder History erzwingen",
+      "Keine Sicherheitsblockade umgehen",
+      "Keine vertraulichen Originale importieren, Fachfreigaben oder Branchschutz behaupten"
+    ]
+  },
+  "basis": {
+    "commit": "35293d17a1b76a89d4b2385bf2b972a3798d8c98",
+    "quellen": [
+      "AGENTS.md",
+      "05_entscheidungen/ent_0002_arbeitssteuerung_und_journal.md",
+      "09_arbeitsjournal/README.md"
+    ]
+  },
+  "taetigkeiten": [
+    "Vorhandenes Paket wieder aufgenommen; 55 Dateien mit SHA-256-Manifest und Patch geprüft",
+    "Kandidatenbaum 87118dfd4c190201e990fc683bd278acb8b18fdb und durch Rückanwendung rekonstruierter Ausgangsbaum 3d420e317c1201f074124edf0b95a94e56469903 exakt reproduziert",
+    "Journalprüfer gegen rekonstruierte Basis und gestagtes Originalpaket erfolgreich ausgeführt",
+    "main unverändert auf der angegebenen Basis gelesen; erster regulärer create_tree-Aufruf für zwei Paketdateien angenommen"
+  ],
+  "ergebnisse": [
+    "05_entscheidungen/README.md",
+    "05_entscheidungen/ent_0002_arbeitssteuerung_und_journal.md"
+  ],
+  "aenderungen": [],
+  "pruefungen": [
+    {
+      "verfahren": "Paketidentität, Patch-Rückanwendung und bestehender Journalprüfer",
+      "ergebnis": "bestanden",
+      "bezug": [
+        "09_arbeitsjournal/pruefen.py"
+      ],
+      "grenze": "Lokale Wiederholungsprüfung; frühere 28 Kontrastproben nicht erneut ausgeführt. Ein angenommenes Git-Baumobjekt ist noch kein auf main veröffentlichter Commit."
+    }
+  ],
+  "entscheidungen": [
+    "05_entscheidungen/ent_0002_arbeitssteuerung_und_journal.md"
+  ],
+  "offen": [
+    {
+      "punkt": "Gesamtpaket noch nicht auf main veröffentlicht",
+      "naechste_handlung": "Reguläre Übertragung abschließen, exakten Baum vergleichen und erst danach main aktualisieren",
+      "verantwortung": "Beauftragte Bearbeitung",
+      "ausloeser": "Laufender Übertragungsauftrag"
+    }
+  ],
+  "fortsetzung": {
+    "verfolgungsort": "05_entscheidungen/ent_0002_arbeitssteuerung_und_journal.md",
+    "naechste_handlung": "Restliche Originalpaketdateien übertragen, Hashvergleich vor Veröffentlichung durchführen und Ergebnis ergänzen",
+    "einstieg": [
+      "AGENTS.md",
+      "09_arbeitsjournal/README.md"
+    ]
+  },
+  "grenzen": [
+    "Kein neuer Rechts-, Modell- oder Betriebswirksamkeitsbefund",
+    "Bisher keine Veröffentlichung des Kandidaten auf main und keine ferne Workflow-Prüfung",
+    "Die bisherigen drei Journaldateien bleiben unverändert"
+  ]
+}

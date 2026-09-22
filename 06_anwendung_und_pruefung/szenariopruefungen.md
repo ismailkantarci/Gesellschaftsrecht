@@ -39,3 +39,20 @@ Der Durchlauf folgte [MA-0001](../04_modelle/ma_0001_arbeitsgesellschaftermodell
 **Änderungsumfang:** Präzisierungen in bestehender Arbeitsweise und Vorlagen, keine neue Register-, Schema- oder Testinfrastruktur. Der [Bedarfsabgleich](../01_quellen_und_bestand/bestands_und_lueckenanalyse.md) und die Grenze des [Referenzprofils](../04_modelle/bp_0001_wien_ein_fahrzeug.md) wurden ergänzend geprüft. Die saubere Trennung vorübergehender Prüfarbeit ist in [AGENTS.md](../AGENTS.md) festgehalten.
 
 **Ergebnisgrenze:** Die vier ausgewählten Arbeitswege konnten im vorgegebenen Methodenumfang nachvollziehbar bearbeitet werden. Die Nachprüfung verwendet die mit diesem Vermerk eingecheckten Dokumentstände. Es wurden keine Fachfreigabe, keine tatsächliche Überwachung eines Kontrollkalenders, keine vollständige Kenntnis aller Gesellschaftsanwendungen und kein unabhängiger Neueinstiegstest erbracht. MA-0001 bleibt fachlich offen; die acht anderen Szenarien und echte Betriebsnachweise sind nicht erledigt. Künftige relevante Methodenänderungen erfordern eine erneute Prüfung der betroffenen Szenarien.
+
+## Methodenvertiefung und Journal vom 22.09.2026
+
+**Auftrag:** ENT-0002. **Basis:** `35293d17a1b76a89d4b2385bf2b972a3798d8c98`. Die folgende Gegenüberstellung ist ein KI-gestützter Dokumentendurchlauf mit Selbstprüfung, keine unabhängige Anwendung oder automatisierte Prüfung menschlichen Verhaltens. Temporäre Eingaben und ausführliche Hilfsprotokolle wurden außerhalb des Repositorys bearbeitet. Die ursprüngliche Viererprüfung und die acht dort nicht bearbeiteten Fälle bleiben historisch unverändert abgegrenzt.
+
+| Kontrastfall | Angewandte Regel und begrenztes Ergebnis |
+|---|---|
+| Reine Schreibkorrektur ohne Bedeutungsänderung | Redaktioneller Diff-/Sinnvergleich genügt; kein erfundener zusätzlicher Fachprüfer oder Modellentscheid. |
+| Ein Wort ändert einen Entgelt-/Fristinhalt | Wirkung statt Wortzahl führt zur wesentlichen Prüfung; ohne Sachgrundlagen keine behauptete Fachfreigabe. |
+| Wichtige Vertragsforschung wartet auf Originale | Quellenabhängige Bewertung bleibt offen; Beschaffung oder unabhängige Methodenarbeit ist im jeweiligen Auftrag möglich. |
+| Abrechnungsergebnis unvollständig, Empfänger antwortet nicht | Versand ist keine Annahme; Fehlumfang, Nachfassverantwortung und nächster Schritt bleiben im selben Vorgang offen. |
+| Geprüftes Ergebnis wird anschließend wesentlich geändert | Prüfung bleibt auf damalige Fassung begrenzt; betroffener Teil wird erneut bewertet, nicht pauschal alles. |
+| Beauftragter Leser hat keine Schreibbefugnis | Berichtspflicht bleibt, aber keine heimliche Mutation: Journal zur befugten Übernahme liefern und Nichtveröffentlichung benennen. |
+
+Die notwendige Handlungsregel ist in [Arbeitssteuerung](../00_systemkern/arbeitsweise_und_freigaben.md), [Prozessvorlage](../08_vorlagen/prozess_und_kontrolle.md) und [Journal](../09_arbeitsjournal/README.md) auffindbar. Diese begrenzte Lesekontrolle trägt keine Behauptung über tatsächliche Fremdannahme, externe Rechtswirkung, Echtzeitüberwachung oder alle künftigen Fälle.
+
+Das produktive Journal-Prüfprogramm wurde zusätzlich mit gültigen und absichtlich ungültigen JSON-/Git-Baum-Varianten geprüft: fehlende Pflichtfelder, falsche Zeit-/ID-/Pfadwerte, doppelte Schlüssel, unbekannte Vorgänger, Selbstreferenz und Delegationszyklus, Wiederverwendung alter Berichte, fehlende Dateiänderungsabdeckung, Änderung/Löschung veröffentlichter Ereignisse sowie Änderung versionierter Schemata. Reine Leseberichte, verknüpfte Korrekturen und historische Verweise auf später entfernte Dateien wurden als zulässige Gegenfälle berücksichtigt. Der tatsächliche Prüfumfang und verbleibende Grenzen stehen im auftragsbezogenen Journalabschluss; keine Roh-Testdaten wurden als Arbeitsbestand eingecheckt.

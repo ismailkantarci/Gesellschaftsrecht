@@ -19,3 +19,9 @@ Für die ausführende Person entstehen kurze, verständliche Handlungsanweisunge
 ## Abnahme und Verbindungen
 
 Ein Ablauf ist ohne verborgenes Vorwissen durchführbar und besitzt einen belegbaren Abschluss. Fehlende Unterlagen oder nicht erreichbare Beteiligte sind behandelbare Zustände, kein stilles Überspringen. [Leistung](leistungen_und_verguetung.md), [Befugnis](fuehrung_befugnisse_verantwortung.md), [Kontrolle](kontrollsysteme_und_wirksamkeit.md) und [Kapazität](wirtschaftlichkeit_und_kapazitaet.md) passen zusammen.
+
+## Ablaufbibliothek und Übergaben
+
+Wiederverwendbare Abläufe werden zunächst als klar benannte Abschnitte der zugehörigen Modellakte entwickelt; nur eigenständig wiederverwendete Verfahren benötigen eine eigene Fachdatei. Im Modellregister den maßgeblichen Verweis sichtbar halten. Konkrete Ausführungen und deren Belege gehören in die [Gesellschaftsanwendung](../06_anwendung_und_pruefung/README.md), nicht in das Muster.
+
+Der verbindliche methodische Aufbau für [Definition, Übergabe, Annahme und Gesamtabschluss](../08_vorlagen/prozess_und_kontrolle.md#definition-und-einzelne-anwendung) steht in der Prozessvorlage. Eine Übergabe verlangt kein neues System, aber einen eindeutig zugeordneten Ergebnisstand und Nachfassweg. „Gesendet“ allein ist kein Ende-zu-Ende-Ergebnis.

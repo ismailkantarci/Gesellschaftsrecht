@@ -5,6 +5,7 @@ Entscheidungen erhalten fortlaufende ENT-Kennungen. Sie nennen Gegenstand, Quell
 | Kennung | Gegenstand | Status |
 |---|---|---|
 | [ENT-0001](ent_0001_systemauftrag.md) | Eigenständiger Systemauftrag und Aufbau dieses Repositorys | Vom Auftraggeber angenommen; Einrichtungsauftrag erteilt |
+| [ENT-0002](ent_0002_arbeitssteuerung_und_journal.md) | Arbeitssteuerung, Prüftiefe, Ergebnisübergabe und verbindliches Journal | Methodenrichtung angenommen; begrenzte Umsetzung beauftragt |
 
 ## Entscheidungsgrenzen
 

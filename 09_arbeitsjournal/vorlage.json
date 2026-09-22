@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "eintrag_id": null,
+  "auftrag_id": null,
+  "uebergeordneter_auftrag": null,
+  "ereignis": null,
+  "zeitpunkt": null,
+  "akteur": {
+    "bezeichnung": null,
+    "typ": null,
+    "rolle": null
+  },
+  "vorgaenger": [],
+  "korrektur_fuer": [],
+  "auftrag": {
+    "quelle": null,
+    "zusammenfassung": null,
+    "erlaubter_umfang": [],
+    "ausgeschlossen": []
+  },
+  "basis": {
+    "commit": null,
+    "quellen": []
+  },
+  "taetigkeiten": [],
+  "ergebnisse": [],
+  "aenderungen": [],
+  "pruefungen": [],
+  "entscheidungen": [],
+  "offen": [],
+  "fortsetzung": {
+    "verfolgungsort": null,
+    "naechste_handlung": null,
+    "einstieg": []
+  },
+  "grenzen": []
+}

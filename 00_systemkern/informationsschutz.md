@@ -30,3 +30,11 @@ Speicherort, Zugriff, Zweck und Aufbewahrung werden dokumentbezogen festgelegt. 
 Die .gitignore-Datei vermindert versehentliche Aufnahme typischer Original- und Geheimnisdateien. Sie ist keine Zugriffskontrolle, keine Inhaltsprüfung und keine Garantie gegen Veröffentlichung. Bereits gespeicherte Daten werden durch eine Ignore-Regel nicht entfernt.
 
 Bei einer Fehlveröffentlichung weitere Verbreitung begrenzen, betroffenen Stand und Inhalt feststellen und einen befugten Umgang mit Entfernung, Zugangsdaten und möglichen Folgeschritten klären. Keine eigenmächtige Geschichtsumschreibung oder rechtliche Bewertung behaupten.
+
+## Schutz im Arbeitsjournal
+
+Auch Arbeitsberichte, Antragszusammenfassungen, Dateinamen und Verweise können vertrauliche Tatsachen offenlegen. Keine vollständigen E-Mails, Vertragsinhalte, Personenakten, Zugangsdaten, temporären Downloadadressen oder privaten Gedankengänge protokollieren. Erforderlich sind nachvollziehbare Arbeitsergebnisse und kurze überprüfbare Begründungen, kein Gedankenprotokoll.
+
+Öffentliche Einträge dürfen nur zur Veröffentlichung geprüfte, personenfreie Arbeitsinformationen enthalten. Ein späterer Wechsel zu Private ersetzt nicht die Inhaltsprüfung oder die Berechtigung zum Import. Ein verweigerter bzw. nicht durchgeführter Import kann ohne den geschützten Inhalt protokolliert werden.
+
+Schema und Validator erkennen nicht zuverlässig, ob ein Text vertraulich ist. Die Schutzentscheidung muss vor der Übertragung tatsächlich erfolgen. Bei notwendiger Bereinigung veröffentlichter Daten die befugte Vorgehensweise klären; keinen geheimen Inhalt im Korrekturhinweis erneut verbreiten.

@@ -25,3 +25,9 @@ Recht/Berufsbefugnis, Steuern/Sozialversicherung, Nutzen, Wirtschaftlichkeit, Li
 ## Ergebnis
 
 Empfehlung, Alternativen, Kosten, Risiken, offene Fachfragen, notwendige Entscheidung und Stopp-/Wiederaufnahmebedingung. Für eine Erprobung gesondert Umfang, Befugnisse, Kriterien und Abbruchweg festlegen. Durchführung nicht vorwegnehmen.
+
+## Steuerung und nächste Übergabe
+
+Maßgeblichen Verfolgungsort, Prioritätsgrund, jetzt bearbeitbaren Schritt, notwendige Eingaben und [Prüftiefe](../00_systemkern/arbeitsweise_und_freigaben.md#prüftiefe-nach-wirkung) benennen. Bei Warten: Ursache, Beschaffungsweg, Nachfassrolle und nächster Termin/Auslöser. Forschungsergebnis und Entscheidungsvorschlag an den benannten Empfänger mit Ergebnisfassung und Annahmekriterien übergeben. Nicht auf eine unbekannte Person vorbelegen.
+
+Nutzenannahme, Ausgangslage, Messgröße, Beobachtungszeitraum und Widerlegungskriterium festhalten. Diese Angaben beschreiben einen Prüfplan; ohne Beobachtung keine positive Wirkung behaupten. Im [Journal](../09_arbeitsjournal/README.md) nur Arbeit, Ergebnisverweis, Grenzen und Fortsetzung berichten; Forschungsinhalt nicht doppelt pflegen.

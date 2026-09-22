@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "eintrag_id": "bfbd4578-303a-4a7c-a63b-70addb43e186",
+  "auftrag_id": "4ac3aa22-25e2-499e-99d6-762152dbf502",
+  "uebergeordneter_auftrag": null,
+  "ereignis": "zwischenstand",
+  "zeitpunkt": "2026-09-22T20:46:13Z",
+  "akteur": {
+    "bezeichnung": "ChatGPT",
+    "typ": "ki",
+    "rolle": "Beauftragte Methodenbearbeitung und Selbstprüfung"
+  },
+  "vorgaenger": [
+    "98c8390f-e48e-4094-8d44-57d1c0729809"
+  ],
+  "korrektur_fuer": [],
+  "auftrag": {
+    "quelle": "05_entscheidungen/ent_0002_arbeitssteuerung_und_journal.md#auftrag",
+    "zusammenfassung": "Angenommene Arbeitssteuerung, Prüftiefe und Ergebnisübergabe tief umsetzen; Gesprächskonzeption mit vorheriger Einrichtung abgleichen; verbindliches JSON-Arbeitsjournal einschließlich eigener Tätigkeit einrichten.",
+    "erlaubter_umfang": [
+      "Bestehende Methoden und Arbeitsformen vertiefen",
+      "Quellenstand und Konzeptabdeckung prüfen",
+      "Eigenständiges Journal und begrenzte Form-/Änderungsprüfung einführen",
+      "Im bezeichneten Repository veröffentlichen und zurücklesen"
+    ],
+    "ausgeschlossen": [
+      "Andere Repositorys oder deren Regeln übernehmen",
+      "Vertrauliche Gesellschaftsoriginale veröffentlichen",
+      "MA-0001, Rechtsfragen oder Betriebswirksamkeit als freigegeben erklären",
+      "Unabhängige Prüfung, Auftrag fremder Personen oder vergangene Journalvollständigkeit erfinden"
+    ]
+  },
+  "basis": {
+    "commit": "35293d17a1b76a89d4b2385bf2b972a3798d8c98",
+    "quellen": [
+      "README.md",
+      "AGENTS.md",
+      "00_systemkern/arbeitsweise_und_freigaben.md",
+      "05_entscheidungen/ent_0002_arbeitssteuerung_und_journal.md"
+    ]
+  },
+  "taetigkeiten": [
+    "Die 46 Ausgangsdateien und angenommenen Gesprächsanforderungen auf methodische Abdeckung verglichen; Befunde am bestehenden Bestandsabgleich dokumentiert",
+    "Arbeitssteuerung, wirkungsbezogene Prüftiefe, Ergebnisübergabe und Neustart ohne Chatgedächtnis an bestehenden Stellen vertieft",
+    "Historische Vertragsfassungen als Forschungsquellen, Ablaufdefinition, Durchführung und Nachweis ausdrücklich getrennt",
+    "Journalpflicht, JSON-Schema, leere Vorlage, verknüpfte Ereignisse und begrenztes Prüfprogramm samt Workflow eingerichtet"
+  ],
+  "ergebnisse": [
+    "01_quellen_und_bestand/bestands_und_lueckenanalyse.md#tiefenabgleich-mit-der-angenommenen-konzeption",
+    "00_systemkern/arbeitsweise_und_freigaben.md#arbeitssteuerung-und-priorisierung",
+    "08_vorlagen/prozess_und_kontrolle.md#ergebnisübergabe-und-annahme",
+    "09_arbeitsjournal/README.md"
+  ],
+  "aenderungen": [
+    {
+      "pfad": ".github/ISSUE_TEMPLATE/facharbeit.md",
+      "vorher": "5cadd695b6d8987d6e1fcd3fb3ec047c067e9293",
+      "nachher": "a610a9ceadbae2084f0191fad0f976d1967ce72f"
+    },
+    {
+      "pfad": ".github/ISSUE_TEMPLATE/korrektur.md",
+      "vorher": "19fcf8dc0cb5d5c23cd7b2b8df71b181e7ea4a22",
+      "nachher": "a7616160c2f0cdaff32f242946aec37fcc2e4275"
+    },
+    {
+      "pfad": ".github/workflows/journal.yml",
+      "vorher": null,
+      "nachher": "c5f8070a7f73e3ec314360ce4a9fc2a7fb00a8e5"
+    },
+    {
+      "pfad": "00_systemkern/arbeitsweise_und_freigaben.md",
+      "vorher": "f74e50a7b1a1352d482e6932c7b2bda502137c9b",
+      "nachher": "db2e1b8ae3d2c385cb7330c6914a4ec5aedab6c2"
+    },
+    {
+      "pfad": "00_systemkern/fachlandkarte.md",
+      "vorher": "2b6ab6182f6d0af9bdec77b8b41619a1e4641f9d",
+      "nachher": "bfb665c5d161b914c4797f0efd1312fc57775de5"
+    },
+    {
+      "pfad": "00_systemkern/informationsschutz.md",
+      "vorher": "af5e6e162ef7f3826e1c644da520cf012def3cbd",
+      "nachher": "c38ebd9a0383092b9ec67e9bbb13b196a5057746"
+    },
+    {
+      "pfad": "01_quellen_und_bestand/README.md",
+      "vorher": "cb271084d2298bede97c03b8a9b338d63aaec6c6",
+      "nachher": "aa1c1e741166c5576d0116784501f4c2d60f6c69"
+    },
+    {
+      "pfad": "01_quellen_und_bestand/bestands_und_lueckenanalyse.md",
+      "vorher": "78d42c70e50092d5697e2815ca089d26421268ee",
+      "nachher": "c533a03aeee9f796738912ac8b06e275a6142978"
+    },
+    {
+      "pfad": "01_quellen_und_bestand/quellenregister.md",
+      "vorher": "16940936e030896ae5cde99453e7ee29613b08a4",
+      "nachher": "7af2e225c326493e1aada0141b5d5c08750b0b20"
+    },
+    {
+      "pfad": "02_forschung_und_entwicklung/README.md",
+      "vorher": "8e7414dde86999f8ce061ee70c7f51d7df7a680b",
+      "nachher": "71d7b892654e879b5f29f09c18eea523fd4ab1b4"
+    },
+    {
+      "pfad": "02_forschung_und_entwicklung/forschungsprogramm.md",
+      "vorher": "7368834c917dade2624d58e23cb2f91569940179",
+      "nachher": "b07e8e43bddc853be699db0a24330cb907f7684e"
+    },
+    {
+      "pfad": "03_fachgebiete/betriebsorganisation_und_dienstleister.md",
+      "vorher": "8d167833b5291c960db60a3869019283936ca0df",
+      "nachher": "ddc4dd279916a114bb273f0e84af1b2e1aaa797e"
+    },
+    {
+      "pfad": "03_fachgebiete/vertraege_und_regelwerke.md",
+      "vorher": "3c75a3a1e688623506000a209ffae0b9a80bf54a",
+      "nachher": "ddb5fa82820887d56e4a43e20c8ca40dce729011"
+    },
+    {
+      "pfad": "05_entscheidungen/README.md",
+      "vorher": "73465465144ecfffebd898fe4389d3f395573de7",
+      "nachher": "ce574e08a324568a71176176a144488bb345ce0e"
+    },
+    {
+      "pfad": "05_entscheidungen/ent_0002_arbeitssteuerung_und_journal.md",
+      "vorher": null,
+      "nachher": "5baad4c58a5e89285a4e6cab3fb3f82c579eddfa"
+    },
+    {
+      "pfad": "06_anwendung_und_pruefung/README.md",
+      "vorher": "b0c632aeea36c51f29d9999a8b6c84a94c6e17cd",
+      "nachher": "2fb845f30866b900be41c2280a03a75a62143d55"
+    },
+    {
+      "pfad": "06_anwendung_und_pruefung/szenariopruefungen.md",
+      "vorher": "b4104a40fe8f50650346d7b6f646f073fb5eee9b",
+      "nachher": "2ae2d157f4a9b0d94b73877aae13e1d8bfd0f627"
+    },
+    {
+      "pfad": "08_vorlagen/README.md",
+      "vorher": "56f2667c8bb4cc8a1742e6664ce516164e2e3aff",
+      "nachher": "c0784b0fc234141fd8eb45d17999c83a337b80e5"
+    },
+    {
+      "pfad": "08_vorlagen/entscheidung.md",
+      "vorher": "11411c2a623dfdda25c0e997609c6bc612131b21",
+      "nachher": "8fa7042f085426be1b6accceec13c89c2e2949f3"
+    },
+    {
+      "pfad": "08_vorlagen/forschungsakte.md",
+      "vorher": "4abeb08bb59f2f93d9bb198a6100964ce1b581dd",
+      "nachher": "e8eaee7a01dc2ec18b8e1c40e57fb6b1142e76f0"
+    },
+    {
+      "pfad": "08_vorlagen/modellakte.md",
+      "vorher": "a3af3fe554e78d3ffc28f5052e4c197537eacf5b",
+      "nachher": "7c3032ee093e2a1d2dd58298717d9ee0d98c0e6f"
+    },
+    {
+      "pfad": "08_vorlagen/prozess_und_kontrolle.md",
+      "vorher": "d903e3a1f574f312f898ea995d00b3a650399a5a",
+      "nachher": "bb125e83696cb6d8d01665f68de52f7e48e393de"
+    },
+    {
+      "pfad": "09_arbeitsjournal/README.md",
+      "vorher": null,
+      "nachher": "376256ba36eeab2ee6f142979af9fd893a565afb"
+    },
+    {
+      "pfad": "09_arbeitsjournal/pruefen.py",
+      "vorher": null,
+      "nachher": "610a12c53a83cb53febda75096a93c0b82921289"
+    },
+    {
+      "pfad": "09_arbeitsjournal/schema_v1.json",
+      "vorher": null,
+      "nachher": "b63ab3600397e211c33997b4717e99828edab7f9"
+    },
+    {
+      "pfad": "09_arbeitsjournal/vorlage.json",
+      "vorher": null,
+      "nachher": "5ff6336eb10c27563b4ee5917b6f0840f3f89490"
+    },
+    {
+      "pfad": "99_archiv/README.md",
+      "vorher": "203cc960e6fc657880de9d2e59c0bcf1a773b88f",
+      "nachher": "843b5df64d2fbaf8c1064eb91eb56a1f5de182d2"
+    },
+    {
+      "pfad": "AGENTS.md",
+      "vorher": "a5b21da0903a255b67cf005ee0f86ca165acdc97",
+      "nachher": "5191768047013951324aac0742db23804770df82"
+    },
+    {
+      "pfad": "README.md",
+      "vorher": "911dd3b0f4c20a80de04bdba12a2278aa34acbae",
+      "nachher": "f4782402a600fb0149a6af4e92f0c7b810ea9c69"
+    }
+  ],
+  "pruefungen": [
+    {
+      "verfahren": "Ausgangsbestand gegen aktuellen Git-Baum",
+      "ergebnis": "bestanden",
+      "bezug": [
+        "01_quellen_und_bestand/bestands_und_lueckenanalyse.md#tiefenabgleich-mit-der-angenommenen-konzeption"
+      ],
+      "grenze": "46 Ausgangsdateien bilden exakt Baum 3d420e317c1201f074124edf0b95a94e56469903. Inhaltsidentität ist keine Rechts-/Wirksamkeitsprüfung."
+    },
+    {
+      "verfahren": "Lokale Struktur-, Verweis- und Diff-Prüfung",
+      "ergebnis": "bestanden",
+      "bezug": [
+        "README.md",
+        "00_systemkern/fachlandkarte.md"
+      ],
+      "grenze": "54 Kandidatdateien, 220 relative Markdown-Verweise einschließlich Abschnittszielen ohne Fehler; git diff --check ohne Fehler. Externe Erreichbarkeit nicht vollständig geprüft."
+    },
+    {
+      "verfahren": "28 Validator-Kontrastproben, darunter 24 beabsichtigt fehlerhafte Varianten",
+      "ergebnis": "bestanden",
+      "bezug": [
+        "09_arbeitsjournal/pruefen.py",
+        "09_arbeitsjournal/schema_v1.json",
+        "06_anwendung_und_pruefung/szenariopruefungen.md#methodenvertiefung-und-journal-vom-22092026"
+      ],
+      "grenze": "Form-, Ereignis-, historische Referenz- und Änderungsspurprüfungen mit lokalen Git-Bäumen; kein Beweis semantischer Wahrheit oder serverseitiger Merge-Sperre. Synthetische Eingaben nicht veröffentlicht."
+    },
+    {
+      "verfahren": "Sechs methodische Kontrastfälle als KI-gestützter Dokumentendurchlauf",
+      "ergebnis": "bestanden",
+      "bezug": [
+        "06_anwendung_und_pruefung/szenariopruefungen.md#methodenvertiefung-und-journal-vom-22092026"
+      ],
+      "grenze": "Selbstprüfung anhand der ausgearbeiteten Regeln; keine unabhängige Zweitprüfung, kein neuer Agent und kein tatsächlich abgewickelter Unternehmensprozess."
+    }
+  ],
+  "entscheidungen": [
+    "05_entscheidungen/ent_0002_arbeitssteuerung_und_journal.md"
+  ],
+  "offen": [
+    {
+      "punkt": "Erforderlicher serverseitiger Journal-Statuscheck und Schutz gegen Bypass nicht eingerichtet",
+      "naechste_handlung": "Nach verfügbarem Workflow den Check journal als erforderlich konfigurieren und wirksame Schutz-/Bypass-Einstellungen gesondert prüfen",
+      "verantwortung": "Repository-Inhaber oder befugte Administration",
+      "ausloeser": "Vor Behauptung einer technischen Merge-Sperre"
+    },
+    {
+      "punkt": "Reale Modell-/Vertragsprüfung und fachliche Betriebsnachweise fehlen weiterhin",
+      "naechste_handlung": "Nach sicherer Bereitstellung passende Originalfassungen und tatsächliche Praxis in MA-0001 untersuchen",
+      "verantwortung": "Auftraggeber; konkrete Fachbearbeitung gesondert zu benennen",
+      "ausloeser": "Sichere Quellenbereitstellung und begrenzter Auftrag"
+    }
+  ],
+  "fortsetzung": {
+    "verfolgungsort": "05_entscheidungen/ent_0002_arbeitssteuerung_und_journal.md",
+    "naechste_handlung": "Geprüften Kandidaten veröffentlichen; GitHub-Baum, Dateien und verfügbares Workflow-Ergebnis zurücklesen. Danach einen abschließenden Übergabeeintrag ergänzen.",
+    "einstieg": [
+      "AGENTS.md",
+      "05_entscheidungen/README.md",
+      "01_quellen_und_bestand/bestands_und_lueckenanalyse.md",
+      "04_modelle/ma_0001_arbeitsgesellschaftermodell.md",
+      "09_arbeitsjournal/README.md"
+    ]
+  },
+  "grenzen": [
+    "Bericht der ausführenden KI mit Selbstprüfung, keine unabhängige Zweitprüfung",
+    "Zwischenstand bezieht sich auf die lokale Methodenbearbeitung; Veröffentlichung und fernes Workflow-Ergebnis dürfen nicht vorweggenommen werden",
+    "Keine Aussagen über reale Gesellschaftsrollen, neue Vertragsgültigkeit oder Betriebswirksamkeit",
+    "Keine vollständige Erfassung anonymer oder sonst unbeobachteter Lesezugriffe; Schema beweist keine Wahrheit",
+    "Frühere Anhänge wurden für diesen Auftrag nicht erneut inhaltlich geprüft oder importiert"
+  ]
+}

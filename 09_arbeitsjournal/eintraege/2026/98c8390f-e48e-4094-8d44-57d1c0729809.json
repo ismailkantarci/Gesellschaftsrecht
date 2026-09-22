@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "eintrag_id": "98c8390f-e48e-4094-8d44-57d1c0729809",
+  "auftrag_id": "4ac3aa22-25e2-499e-99d6-762152dbf502",
+  "uebergeordneter_auftrag": null,
+  "ereignis": "beginn",
+  "zeitpunkt": "2026-09-22T20:35:37Z",
+  "akteur": {
+    "bezeichnung": "ChatGPT",
+    "typ": "ki",
+    "rolle": "Beauftragte Methodenbearbeitung und Selbstprüfung"
+  },
+  "vorgaenger": [],
+  "korrektur_fuer": [],
+  "auftrag": {
+    "quelle": "05_entscheidungen/ent_0002_arbeitssteuerung_und_journal.md#auftrag",
+    "zusammenfassung": "Angenommene Arbeitssteuerung, Prüftiefe und Ergebnisübergabe tief umsetzen; Gesprächskonzeption mit vorheriger Einrichtung abgleichen; verbindliches JSON-Arbeitsjournal einschließlich eigener Tätigkeit einrichten.",
+    "erlaubter_umfang": [
+      "Bestehende Methoden und Arbeitsformen vertiefen",
+      "Quellenstand und Konzeptabdeckung prüfen",
+      "Eigenständiges Journal und begrenzte Form-/Änderungsprüfung einführen",
+      "Im bezeichneten Repository veröffentlichen und zurücklesen"
+    ],
+    "ausgeschlossen": [
+      "Andere Repositorys oder deren Regeln übernehmen",
+      "Vertrauliche Gesellschaftsoriginale veröffentlichen",
+      "MA-0001, Rechtsfragen oder Betriebswirksamkeit als freigegeben erklären",
+      "Unabhängige Prüfung, Auftrag fremder Personen oder vergangene Journalvollständigkeit erfinden"
+    ]
+  },
+  "basis": {
+    "commit": "35293d17a1b76a89d4b2385bf2b972a3798d8c98",
+    "quellen": [
+      "README.md",
+      "AGENTS.md",
+      "00_systemkern/arbeitsweise_und_freigaben.md",
+      "05_entscheidungen/ent_0002_arbeitssteuerung_und_journal.md"
+    ]
+  },
+  "taetigkeiten": [
+    "Aktuellen main und öffentliche Sichtbarkeit über GitHub gelesen",
+    "Bereitgestellte Einrichtungskopie programmatisch mit dem aktuellen Git-Baum abgeglichen; 46 Dateipfade stimmen mit Baum 3d420e317c1201f074124edf0b95a94e56469903 überein"
+  ],
+  "ergebnisse": [],
+  "aenderungen": [],
+  "pruefungen": [],
+  "entscheidungen": [
+    "05_entscheidungen/ent_0002_arbeitssteuerung_und_journal.md"
+  ],
+  "offen": [
+    {
+      "punkt": "Methodenfortschreibung und Journal noch im Aufbau",
+      "naechste_handlung": "Kandidat ausarbeiten, prüfen und Ergebnisse als neues Ereignis ergänzen",
+      "verantwortung": "ChatGPT im begrenzten Auftrag",
+      "ausloeser": "Vor Abschluss und Veröffentlichung"
+    }
+  ],
+  "fortsetzung": {
+    "verfolgungsort": "05_entscheidungen/ent_0002_arbeitssteuerung_und_journal.md",
+    "naechste_handlung": "Methodenumfang und Journalverfahren fertigstellen, lokal gegenprüfen und auf main veröffentlichen",
+    "einstieg": [
+      "00_systemkern/arbeitsweise_und_freigaben.md",
+      "08_vorlagen/prozess_und_kontrolle.md",
+      "09_arbeitsjournal/README.md"
+    ]
+  },
+  "grenzen": [
+    "Erstmalige Journalaufzeichnung nach Vorprüfung; Beginn und Ergebnis werden beim Bootstrap gemeinsam veröffentlicht",
+    "Keine rückwirkend vollständige Erfassung früherer Tätigkeiten",
+    "Kein Import und keine neue Prüfung der alten Gesellschaftsverträge oder Compliance-Arbeitsmappe"
+  ]
+}

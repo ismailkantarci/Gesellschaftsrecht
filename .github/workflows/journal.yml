@@ -1,0 +1,39 @@
+name: Arbeitsjournal
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  journal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Genauen Kandidaten lesen
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Prüfwerkzeug bereitstellen
+        run: |
+          python3 -m venv "$RUNNER_TEMP/journal-venv"
+          "$RUNNER_TEMP/journal-venv/bin/python" -m pip install --disable-pip-version-check jsonschema==4.26.0
+      - name: Journal und Änderungen prüfen
+        env:
+          PR_BASE: ${{ github.event.pull_request.base.sha }}
+          PUSH_BASE: ${{ github.event.before }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          set -eu
+          if [ -n "$PR_BASE" ]; then
+            basis="$PR_BASE"
+          elif [ -n "$PUSH_BASE" ] && [ "$PUSH_BASE" != "0000000000000000000000000000000000000000" ]; then
+            basis="$PUSH_BASE"
+          elif [ "$EVENT_NAME" = "push" ] && git rev-parse --verify origin/main >/dev/null 2>&1; then
+            basis=$(git merge-base origin/main HEAD)
+          else
+            basis=$(git rev-parse HEAD^ 2>/dev/null || git hash-object -t tree /dev/null)
+          fi
+          "$RUNNER_TEMP/journal-venv/bin/python" 09_arbeitsjournal/pruefen.py --basis "$basis" --ziel HEAD

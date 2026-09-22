@@ -16,3 +16,7 @@ Vorlagen passend zum tatsächlichen Umfang verwenden. Keine Pflicht zu sechs neu
 Neue Quellen, Profile, Modellakten und Entscheidungen erhalten ihre Kennung im vorhandenen Quellen-, Modell- bzw. Entscheidungsregister. Für eine untergeordnete Forschung, Bewertung, einen Prozess oder eine Kontrolle genügt ein eindeutiger Abschnitt der bestehenden Akte nach den [aussagebezogenen Verweisen](../00_systemkern/arbeitsweise_und_freigaben.md#aussagebezogene-verweise). Dafür kein bisher nicht vorhandenes Register voraussetzen oder allein zur Nummernvergabe anlegen. Originalschlüssel behalten ihren Quellenbezug.
 
 Die Vorlage selbst hat keine Aktenidentität. Keine Personen, Prüfer, Zustimmungen oder Datumswerte automatisch vorbelegen.
+
+## Verbindliche Arbeitsberichte
+
+Zusätzlich gilt für jeden beauftragten Bearbeiter das [Arbeitsjournal](../09_arbeitsjournal/README.md) mit eigener JSON-Vorlage und Schema. Es ersetzt keine der sechs Fachvorlagen. Arbeitswahl und Prüftiefe stehen zentral in der Arbeitsweise; der Prozessvorlage gehören Ergebnisübergabe, Annahme und Gesamtabschluss.

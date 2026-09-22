@@ -32,3 +32,7 @@ Je entscheidungstragender Verbindung Aussage/Abschnitt, genaue Fassung und Funds
 ## Ergebnis und Verwendung
 
 Benötigte Entscheidungen, Gegenbelege, kritische Hindernisse und nächster Arbeitsschritt. Bei einem Modellpaket genaue enthaltene Fassungen, freigegebenen Zweck, freigebende Person, erforderliche Mitwirkung und Einführungs-/Prüfplan angeben. Einzelfallanwendung nicht durch Modellfreigabe ersetzen.
+
+## Wiederaufnahme und Ergebnisstand
+
+Maßgeblichen aktuellen Arbeitsauftrag, jüngste einschlägige Journalereignisse, nächste konkrete Frage und Eingangsvoraussetzungen referenzieren. Modelldokumentation, zugrunde liegende Quellenfassungen und aktuelle Bearbeitbarkeit unterscheiden. Ein anderer Bearbeiter muss ohne früheren Chat die nächsten erlaubten Schritte und die nötigen Entscheidungen finden können.
