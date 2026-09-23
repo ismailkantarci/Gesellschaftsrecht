@@ -87,3 +87,20 @@ In v2 nennen Änderungen neben `vorher`/`nachher` auch `modus_vorher`/`modus_nac
 Bei mehrteiligen Arbeiten können veröffentlichte Zwischenberichte einen damals zutreffenden Ergebnisblob enthalten, der im abschließenden PR bereits ersetzt wurde. Solche Berichte bleiben zulässig, wenn der Commit, der genau diese Ereignisdatei eingeführt hat, auch den berichteten Zwischenstand trägt und in der geprüften Historie auffindbar ist. Ein neu erfundener Zwischenstand ohne diesen Beleg wird abgewiesen. Die Prüfung eines bloßen Git-Baums ohne passende Historie hat insoweit eine engere Nachweisgrenze.
 
 [selbsttest.py](selbsttest.py) erzeugt positive und negative Testfälle in temporären Verzeichnissen, führt keine Netzaufrufe aus und entfernt diese Eingaben anschließend. Es enthält keine echten Gesellschaften oder betrieblichen Nachweise. Es prüft unter anderem Zeitreihenfolge, unbekannte Daten, Schemafortschreibung, unveränderte Alteinträge, Ereignis-/Delegationsbezüge, Pfade, Änderungsabdeckung und Vorher-/Nachherherkunft. Die Tests werden im selben `journal`-Job vor der eigentlichen Kandidatenprüfung ausgeführt. Ein geänderter Test oder Prüfer benötigt weiterhin eine fachlich-methodische Durchsicht.
+
+
+## Deterministische Kalenderprüfung
+
+Der Prüfer registriert seine Kalender-/Zeitzonenprüfung ausdrücklich an der eigenen
+`FormatChecker`-Instanz. Sie verwendet die Python-Standardbibliothek und hängt nicht
+von optional installierten `date-time`-Erweiterungen ab. Das v2-Schema begrenzt neue
+Zeitangaben weiterhin auf das oben beschriebene UTC-Profil; veröffentlichte Schemas
+und Ereignisse werden dafür nicht geändert.
+
+Hintergrund: Laut [jsonschema-Dokumentation](https://python-jsonschema.readthedocs.io/en/stable/validate/#validating-formats)
+können Formate zusätzliche Pakete benötigen. Deshalb genügt ein lokal vorhandener
+Formatprüfer nicht als Nachweis für dasselbe Verhalten in einer sauberen
+CI-Umgebung. Die Selbsttests prüfen gültige und unmögliche Kalenderdaten zusätzlich
+bei fehlendem oder wirkungslosem optionalem `date-time`-Prüfer. Ein fehlgeschlagener
+Selbsttest stoppt den Job; die nachfolgende Journalprüfung gilt dann als nicht
+ausgeführt, nicht als bestanden.

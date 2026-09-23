@@ -13,6 +13,7 @@ from pathlib import Path
 import subprocess
 import tempfile
 import unittest
+from unittest.mock import patch
 
 HERE = Path(__file__).resolve().parent
 spec = importlib.util.spec_from_file_location('journalpruefer', HERE / 'pruefen.py')
@@ -201,6 +202,39 @@ class JournalTests(unittest.TestCase):
         self.entry['ergebnisse']=['https://example.invalid/keine-netzpruefung'];self.assertEqual([],self.evaluate())
     def test_46_deleted_content_reported(self):
         Path('arbeit.md').unlink();self.entry['aenderungen']=[{'pfad':'arbeit.md','vorher':self.base['arbeit.md'][1],'nachher':None,'modus_vorher':'100644','modus_nachher':None}];self.assertEqual([],self.evaluate())
+
+
+    def test_47_valid_without_optional_datetime_checker(self):
+        # Simuliert das minimale jsonschema-Paket im GitHub-Runner.
+        checks = {key: value for key, value in P.FormatChecker.checkers.items() if key != 'date-time'}
+        with patch.dict(P.FormatChecker.checkers, checks, clear=True):
+            self.assertNotIn('date-time', P.FormatChecker.checkers)
+            self.assertEqual([], self.evaluate())
+            self.assertNotIn('date-time', P.FormatChecker.checkers)
+
+    def test_48_invalid_without_optional_datetime_checker(self):
+        checks = {key: value for key, value in P.FormatChecker.checkers.items() if key != 'date-time'}
+        with patch.dict(P.FormatChecker.checkers, checks, clear=True):
+            self.entry['zeitpunkt'] = '2026-02-30T10:00:00Z'
+            self.bad('Schemafehler')
+
+    def test_49_optional_datetime_checker_cannot_weaken_validation(self):
+        with patch.dict(P.FormatChecker.checkers, {'date-time': (lambda value: True, ())}):
+            self.entry['zeitpunkt'] = '2026-02-30T10:00:00Z'
+            self.bad('Schemafehler')
+
+    def test_50_calendar_and_offset_boundaries(self):
+        checker = P.journal_format_checker()
+        for value in ('2024-02-29T10:00:00Z', '2026-01-01T10:00:00.123456Z',
+                      '2026-01-01T10:00:00+02:00'):
+            with self.subTest(value=value):
+                self.assertTrue(checker.conforms(value, 'date-time'))
+        for value in ('2026-02-29T10:00:00Z', '2026-01-01T24:00:00Z',
+                      '2026-01-01T10:00:00+00:60', '2026-01-01T10:00:00+24:00',
+                      '2026-01-01T10:00:00Z trailing', '20260101T10:00:00Z'):
+            with self.subTest(value=value):
+                self.assertFalse(checker.conforms(value, 'date-time'))
+
 
 
 if __name__ == '__main__':

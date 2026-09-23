@@ -109,6 +109,33 @@ def parsed_time(value: str) -> datetime:
     return result
 
 
+
+def journal_format_checker() -> FormatChecker:
+    """Kalenderprüfung ohne optionale jsonschema-Formatpakete.
+
+    Der Journalparser verwendet ein begrenztes RFC-3339-Profil. V2 verlangt
+    zusätzlich UTC-Z; historische V1-Werte können einen numerischen Offset
+    besitzen. Diese Prüfung wird nur an der eigenen Instanz registriert.
+    """
+    checker = FormatChecker()
+    shape = re.compile(
+        r'[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}'
+        r'(?:\.[0-9]+)?(?:Z|[+-](?:[01][0-9]|2[0-3]):[0-5][0-9])'
+    )
+
+    @checker.checks('date-time', raises=(ValueError, OverflowError))
+    def valid_datetime(value: object) -> bool:
+        # Die Typprüfung bleibt Aufgabe des Schemas.
+        if not isinstance(value, str):
+            return True
+        if shape.fullmatch(value) is None:
+            return False
+        parsed_time(value)  # Verwirft u. a. unmögliche Tage und Stunden.
+        return True
+
+    return checker
+
+
 def validate_text(value: object) -> None:
     """Leere Pflichtaussagen verhindern; beurteilt nicht ihren Wahrheitsgehalt."""
     if isinstance(value, str) and not value.strip():
@@ -150,7 +177,7 @@ def inspect(files: dict, new_paths: set[str]) -> tuple[dict, list[str]]:
         if schema_path in files:
             schema = read_json(files[schema_path][1])
             Draft202012Validator.check_schema(schema)
-            validators[version] = Draft202012Validator(schema, format_checker=FormatChecker())
+            validators[version] = Draft202012Validator(schema, format_checker=journal_format_checker())
     entries = {}
     for path, (mode, sha) in sorted(files.items()):
         if not path.startswith(PREFIX):
