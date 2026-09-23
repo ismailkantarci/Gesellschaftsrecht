@@ -51,3 +51,27 @@ Der Workflow prüft normale PR-Kandidaten, Pushes und manuell angeforderte Läuf
 ## Quellen
 
 Die verwendeten GitHub-Dokumentationen zu geschützten Branches, sicherer Workflow-Ausführung und Ruleset-API sind in [QU-0006, QU-0007 und QU-0013](../01_quellen_und_bestand/methodenquellen.md) mit Übernahmegrenzen dokumentiert. GitHub-Funktionsumfang, Regeln und tatsächlicher Kontozugriff müssen bei späterer Aktivierung erneut geprüft werden.
+
+## Formularprüfung vor Create
+
+Ein importiertes Formular ist noch keine gespeicherte Regel. Vor Create nicht nur die Häkchen, sondern beide Bereiche **Show additional settings** öffnen und mit der Sollkonfiguration vergleichen:
+
+| Bereich | Zu bestätigender Wert |
+|---|---|
+| Geltung | Ziel `main`, Enforcement `Active`, Bypass-Liste leer |
+| PR | PR erforderlich, Merge-Methode `merge`, erforderliche Zustimmungen `0`, offene Review-Diskussionen müssen gelöst sein |
+| Statuscheck | Konkreter Eintrag `journal`, Quelle GitHub Actions; „Require branches to be up to date before merging“ aktiv |
+| Schutz | Restrict deletions und Block force pushes aktiv |
+| Kein unbeabsichtigtes Blockieren | Restrict updates und Require linear history aus; keine zusätzliche Signaturpflicht in diesem Sollpaket |
+
+Geschlossene Detailbereiche belegen weder den ausgewählten Check noch dessen Quelle. Auch ein sichtbarer Wert `Active` wirkt erst nach dem erfolgreichen Speichern. Danach Ruleset-ID, Rücklesezeitpunkt, Ziel, Checkquelle und tatsächliche Durchsetzung getrennt dokumentieren. Die unabhängige fachliche Prüfung wird nicht durch `0` technische Zustimmungen ersetzt. Quelle: [GitHub – Creating rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/creating-rulesets-for-a-repository).
+
+## Sauberer Zweigabschluss
+
+Am Ende eines abgeschlossenen Auftrags liegt der freigegebene letzte Inhalt auf `main`; der konkrete Prüflauf wurde zurückgelesen. Es bleibt kein offener Inhalts-PR und kein erledigter eigener Arbeitszweig als Ersatz für einen ordentlichen Abschluss. Ein berechtigt noch offener Auftrag ist dagegen kein Abfall: seine Änderungen weder zwangsweise zusammenführen noch löschen.
+
+Vor einer Zweiglöschung den tatsächlichen Kopf, die vollständig erhaltene Aufnahme in die main-Historie, etwaige neue Commits und andere offene PRs prüfen, die den Zweig als Quelle oder Ziel verwenden. Nur einen vollständig übernommenen, nicht mehr verwendeten eigenen Arbeitszweig entfernen; `main`, geschützte Zweige und fremde Arbeit bleiben unangetastet. Nach erfolgreichem Merge einen erledigten Pflegezweig nicht für neue Arbeit wiederverwenden.
+
+Die Entfernung des Zweignamens entfernt keine bereits über die Merge-Historie erhaltenen Fachinhalte oder Journale. Löschung und anschließende Branchliste dennoch getrennt überprüfen. Eine fehlende Aktion oder verweigerte Berechtigung wird als offener Bereinigungspunkt dokumentiert, nicht über alternative Identitäten oder eine abgewiesene Automatisierung umgangen. Inhalt bereits auf main, PR gemergt, Zweig gelöscht und Regel aktiviert sind vier verschiedene Aussagen.
+
+Der abschließende Journalbericht nennt den tatsächlich verifizierten main-Stand, Prüfungen und die erledigte oder offen gebliebene Bereinigung. Eine noch notwendige manuelle Bedienung bleibt am maßgeblichen Verfolgungsort sichtbar. Kein allgemeines „alles fertig“, solange eine ausdrücklich beauftragte Abnahme offen ist.
