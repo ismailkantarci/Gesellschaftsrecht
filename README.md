@@ -4,11 +4,11 @@
 
 Dieses Repository ist ein eigenständiger fachlicher Systemkern. Es ist kein Softwarekern, kein Unterprojekt eines anderen Repositorys und kein bloßes Vertragsarchiv. Sein Gegenstand ist die begründete Gestaltung der TAXIPartner-Modelle: Nutzen, Beteiligung, Leistung, Wirtschaftlichkeit, Verträge, Führung, Betrieb, Pflichten, Risiken und nachweisbare Kontrolle.
 
-**Stand: 22.09.2026, Methodenvertiefung und Journalaufbau.** Die Arbeitsgrundlagen, Fachgebiete, Vorlagen, ein Referenzprofil und eine erste Modellakte sind angelegt. Die Modellakte ist eine Untersuchung, kein freigegebenes Geschäftsmodell. Es werden weder vollständige Rechtsprüfung noch eingeführte Kontrollen oder betriebliche Wirksamkeit behauptet.
+**Arbeitsstand: selbständiges Fachsystem mit Methoden- und Journalpflege.** Die Arbeitsgrundlagen, Fachgebiete, Vorlagen, ein Referenzprofil und eine erste Modellakte sind angelegt. Die Modellakte ist eine Untersuchung, kein freigegebenes Geschäftsmodell. Es werden weder vollständige Rechtsprüfung noch eingeführte Kontrollen oder betriebliche Wirksamkeit behauptet.
 
 ## Einstieg
 
-1. [Systemauftrag und Grenzen](00_systemkern/auftrag_und_abgrenzung.md) sowie [Fachlandkarte](00_systemkern/fachlandkarte.md) lesen.
+1. [Selbstbeschreibung und Grenze zu TAXIPartner_OS](00_systemkern/selbstbeschreibung.md), [Systemauftrag und Grenzen](00_systemkern/auftrag_und_abgrenzung.md) sowie [Fachlandkarte](00_systemkern/fachlandkarte.md) lesen.
 2. [Begriffe und Beziehungen](00_systemkern/begriffe_und_beziehungen.md), [Arbeitsweise und Freigaben](00_systemkern/arbeitsweise_und_freigaben.md) und [Informationsschutz](00_systemkern/informationsschutz.md) beachten.
 3. [Entscheidungen](05_entscheidungen/README.md), [Konzeptabgleich](01_quellen_und_bestand/bestands_und_lueckenanalyse.md#tiefenabgleich-mit-der-angenommenen-konzeption) und den aktuellen Arbeitsauftrag lesen.
 4. Einschlägige [Journalereignisse](09_arbeitsjournal/README.md) für Ergebnisse, offene Punkte und Fortsetzung nutzen; vor eigener Arbeit die Journalpflicht beachten.
@@ -47,3 +47,9 @@ Die bereitgestellte Compliance-Arbeitsmappe v0.8 wurde strukturell inventarisier
 Die [Methodenfortschreibung](05_entscheidungen/ent_0002_arbeitssteuerung_und_journal.md) konkretisiert Arbeitsauswahl, Prüftiefe und Ergebnisübergabe. Das Journal trennt angeforderten Umfang, tatsächliche Tätigkeit, Befund und Fortsetzung. Es macht weder eine fehlende Prüfung wahr noch erzwingt es allein die Protokollierung jedes externen Besuchs.
 
 **Nächste fachliche Arbeit:** die vorhandene Vertragspraxis sicher aufnehmen und die erste Modellakte anhand tatsächlicher Leistungen, Befugnisse, Kosten und Kontrollmöglichkeiten prüfen. Kein vollständiger Portfolioumbau, keine autonome Rechtsentscheidung und keine automatische Übernahme alter Entwürfe.
+
+## Fachsystem und technische Umsetzung
+
+Geschäftliche Regeln, Modellgestaltung und fachliche Bewertung werden hier erarbeitet. Software, Automatisierung und technische Zugriffsumsetzung sind nach dem Abgrenzungsauftrag Gegenstand von TAXIPartner_OS, nicht dieses Repositorys. Gemeinsame Begriffe erlauben keine Gesamtkopie und keine geerbte Autorität. [Zuordnung mit Beispielen, Übergabeweg und Grenzen](00_systemkern/selbstbeschreibung.md#abgrenzung-zu-taxipartner_os).
+
+Für den Arbeitsstand der beauftragten Qualitätspflege gilt [Issue #2](https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2); das ist keine neue Fachfreigabe. Eine vorbereitete Branchschutzdatei ist noch kein aktiver Schutz: [Konfiguration und tatsächliche Nachweise](09_arbeitsjournal/schutz_und_betrieb.md).

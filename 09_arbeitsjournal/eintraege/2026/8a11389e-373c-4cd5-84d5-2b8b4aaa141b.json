@@ -1,0 +1,122 @@
+{
+  "schema_version": 2,
+  "eintrag_id": "8a11389e-373c-4cd5-84d5-2b8b4aaa141b",
+  "auftrag_id": "88e580f5-59ad-449c-accf-a4c967aa9fc9",
+  "uebergeordneter_auftrag": null,
+  "ereignis": "blockiert",
+  "zeitpunkt": "2026-09-22T22:29:25Z",
+  "arbeitszeitraum": {
+    "von": "2026-09-22T22:12:06Z",
+    "bis": "2026-09-22T22:29:25Z",
+    "zeitquelle": "systemuhr",
+    "hinweis": "Tatsächliche Übertragungs- und Nachprüfphase. Zeitpunkte beschreiben Aufzeichnung und lokale Prüfung, keine beglaubigte Zeiterfassung."
+  },
+  "akteur": {
+    "bezeichnung": "ChatGPT",
+    "typ": "ki",
+    "rolle": "Beauftragte Übertragung und Prüfung der Qualitätsfortschreibung"
+  },
+  "vorgaenger": [
+    "e7290b9d-c9aa-439c-bad2-62665864b590"
+  ],
+  "korrektur_fuer": [],
+  "auftrag": {
+    "quelle": "https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2",
+    "zusammenfassung": "Fortsetzung des beauftragten Inhalts-, Selbstbeschreibungs- und Journalschutzpakets. Tatsächlichen Übertragungsstand und neue Blockade festhalten.",
+    "erlaubter_umfang": [
+      "Reguläre Veröffentlichung des geprüften Kandidaten und Zurücklesen des Ergebnisses",
+      "Berechtigte Prüfungen, Dokumentation offener Punkte und schutzgeprüfte Übergabe"
+    ],
+    "ausgeschlossen": [
+      "Kein Umgehen einer Werkzeug-Sicherheitsblockade oder administrativer Rechte",
+      "Keine erzwungene Historie und keine fiktive Veröffentlichung oder Fachfreigabe"
+    ]
+  },
+  "basis": {
+    "commit": "918b6157ef123645bcc760e189041daeb9a43849",
+    "quellen": [
+      "AGENTS.md",
+      "09_arbeitsjournal/README.md",
+      "README.md"
+    ]
+  },
+  "taetigkeiten": [
+    "Prüfmittel, Schema v2, Schutz-Sollkonfiguration und Fach-/Methodendokumente über reguläre GitHub-Baumaufrufe vorbereitet; daraus noch keinen Gesamtcommit erstellt.",
+    "Der abschließende create_tree-Aufruf für README.md und AGENTS.md wurde von der Werkzeug-Sicherheitsprüfung abgewiesen. Keine alternative Schreibmethode zur Umgehung eingesetzt.",
+    "main danach unverändert auf 918b6157ef123645bcc760e189041daeb9a43849 und Arbeitszweig pflege/selbstbeschreibung-journal-schutz auf 16f8c859a72db4801e5b854d7e11bd440d3020cc zurückgelesen. Der Arbeitszweig enthält lediglich den veröffentlichten Journalbeginn gegenüber main.",
+    "Vollständigen unveröffentlichten lokalen Kandidatenbaum 7a5a5a1bbf80726819c6f27a5b4f66e8142183ea nochmals gegen die echte Basis validiert; 7 Einträge und 288 relative Verweise geprüft.",
+    "Dieses Blockadeereignis nur dem lokalen Paket angefügt; es ist nicht als auf GitHub veröffentlicht dargestellt.",
+    "Issue #2 mit Kommentar 5785260732 über beide getrennten Blockaden, tatsächlichen main-/Zweigstand und lokale Prüfergebnisse aktualisiert. Der Kommentar veröffentlicht keine blockierten Kandidatendateien."
+  ],
+  "ergebnisse": [
+    "00_systemkern/selbstbeschreibung.md",
+    "01_quellen_und_bestand/methodenquellen.md",
+    "09_arbeitsjournal/schutz_und_betrieb.md",
+    "https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2",
+    "https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2#issuecomment-5785260732"
+  ],
+  "aenderungen": [],
+  "pruefungen": [
+    {
+      "verfahren": "Erneute lokale Journal-/Append-only-/Herkunftsprüfung des vollständigen Kandidaten",
+      "ergebnis": "bestanden",
+      "zeitpunkt": "2026-09-22T22:27:17Z",
+      "bezug": [
+        "09_arbeitsjournal/pruefen.py"
+      ],
+      "grenze": "Prüfbaum 7a5a5a1bbf80726819c6f27a5b4f66e8142183ea, 7 Einträge. Dieses nachträgliche Ereignis war nicht Teil jenes Prüflaufs. Keine ferne PR-Prüfung behauptet."
+    },
+    {
+      "verfahren": "Erneute Kontrolle der lokalen Dateiverweise und Diff-Formatierung",
+      "ergebnis": "bestanden",
+      "zeitpunkt": "2026-09-22T22:27:17Z",
+      "bezug": [
+        "README.md",
+        "00_systemkern/selbstbeschreibung.md"
+      ],
+      "grenze": "49 Markdown-Dateien, 288 relative Verweise, keine fehlenden Datei-/Abschnittsziele. Externe Links und fachliche Wahrheit nicht durch diese Prüfung bestätigt."
+    },
+    {
+      "verfahren": "Ferne Ausführung des geänderten Workflow-Kandidaten",
+      "ergebnis": "nicht_geprueft",
+      "zeitpunkt": "2026-09-22T22:27:59Z",
+      "bezug": [
+        ".github/workflows/journal.yml"
+      ],
+      "grenze": "Gesamtpaket nicht veröffentlicht; frühere erfolgreiche Workflow-Läufe betreffen alte Fassungen."
+    }
+  ],
+  "entscheidungen": [
+    "05_entscheidungen/ent_0003_selbstbeschreibung_und_qualitaet.md"
+  ],
+  "offen": [
+    {
+      "punkt": "Gesamtpaket wegen neuer Werkzeugblockade noch nicht veröffentlicht",
+      "naechste_handlung": "Erst über einen regulär freigegebenen Veröffentlichungsweg den vollständigen Kandidaten übernehmen, Basis prüfen, PR und ausgeführten Check kontrollieren. Keine Teilveröffentlichung als erledigt melden.",
+      "verantwortung": "Befugte Bearbeitung nach Klärung des regulären Veröffentlichungswegs",
+      "ausloeser": "Regulär möglicher neuer Veröffentlichungsauftrag"
+    },
+    {
+      "punkt": "Branchschutz bleibt administrativ nicht aktiviert",
+      "naechste_handlung": "Bestehende Schutzregeln mit befugtem Zugriff lesen, Sollkonfiguration abgleichen und tatsächliche Sperrwirkung nachweisen.",
+      "verantwortung": "Repository-Inhaber oder befugte Administration",
+      "ausloeser": "Verfügbarer Administrationszugriff"
+    }
+  ],
+  "fortsetzung": {
+    "verfolgungsort": "https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2",
+    "naechste_handlung": "Lokales Gesamtpaket mit echten Prüfnachweisen bewahren. Vor weiterer Übernahme aktuellen main, Arbeitszweig und Journalregeln lesen. Journalbeginn nicht erneut anlegen oder historische Dateien umschreiben.",
+    "einstieg": [
+      "README.md",
+      "AGENTS.md",
+      "09_arbeitsjournal/README.md",
+      "09_arbeitsjournal/schutz_und_betrieb.md"
+    ]
+  },
+  "grenzen": [
+    "Lokale Fertigstellung ist keine GitHub-Veröffentlichung.",
+    "Die 46 früher in diesem Auftrag ausgeführten Gegenfalltests sind dokumentiert; sie werden hier nicht als erneut ausgeführt ausgegeben.",
+    "Administrative 403-Verweigerung und Werkzeug-Sicherheitsblockade sind getrennte Hindernisse.",
+    "Keine echten Gesellschaftsakten, Verträge oder Rechtsbewertungen importiert."
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "schema_version": 2,
+  "eintrag_id": "e7290b9d-c9aa-439c-bad2-62665864b590",
+  "auftrag_id": "88e580f5-59ad-449c-accf-a4c967aa9fc9",
+  "uebergeordneter_auftrag": null,
+  "ereignis": "zwischenstand",
+  "zeitpunkt": "2026-09-22T22:12:06Z",
+  "arbeitszeitraum": {
+    "von": "2026-09-22T21:48:22Z",
+    "bis": "2026-09-22T22:07:44Z",
+    "zeitquelle": "systemuhr",
+    "hinweis": "Zeitraum der hier fortgeschriebenen Bearbeitung nach dem veröffentlichten Beginn. Aufzeichnungs- und Prüfpunkte sind Systemuhrangaben, keine beglaubigte Arbeitszeiterfassung."
+  },
+  "akteur": {
+    "bezeichnung": "ChatGPT",
+    "typ": "ki",
+    "rolle": "Beauftragte Inhalts-/Methodenpflege und technische Selbstprüfung"
+  },
+  "vorgaenger": [
+    "e706eced-c8ed-46eb-9983-cbceabc4e12c"
+  ],
+  "korrektur_fuer": [],
+  "auftrag": {
+    "quelle": "https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2",
+    "zusammenfassung": "Schutzlücke bearbeiten, eigenständige Selbstbeschreibung mit OS-Grenze ausarbeiten, bestehende Inhalte gegenüber der angenommenen Konzeption vertiefen und Journalzeit-/Herkunftsmethode verbessern.",
+    "erlaubter_umfang": [
+      "Beauftragte Methoden-/Inhaltsänderungen und Journalprüfmittel regulär veröffentlichen",
+      "Primärquellen als gekennzeichnete methodische Anregung prüfen",
+      "Schutzkonfiguration im erreichbaren Umfang untersuchen und offene Administration benennen"
+    ],
+    "ausgeschlossen": [
+      "Keine andere Repository-Welt oder reale Vertrags-/Unternehmensdaten ändern",
+      "Keine Sicherheits- oder Berechtigungsgrenze umgehen",
+      "Keine unabhängige Prüfung, Modellfreigabe oder wirksame Branchsperre erfinden"
+    ]
+  },
+  "basis": {
+    "commit": "918b6157ef123645bcc760e189041daeb9a43849",
+    "quellen": [
+      "README.md",
+      "AGENTS.md",
+      "09_arbeitsjournal/README.md",
+      "00_systemkern/auftrag_und_abgrenzung.md",
+      "01_quellen_und_bestand/bestands_und_lueckenanalyse.md"
+    ]
+  },
+  "taetigkeiten": [
+    "57-Dateien-Ausgangsbestand anhand seines vollständigen Git-Baums identifiziert und gegen die angenommene Konzeption durchgesehen; vertrauliche Originale nicht erneut importiert",
+    "Eigenständige Selbstbeschreibung mit Beispielen, fachlicher Zuständigkeit, OS-Abgrenzung und kontrolliertem Übergabeweg ausgearbeitet",
+    "Die elf Fachgebiete in ihren vorhandenen Dateien um konkrete Erhebungs-, Bewertungs- und Gegenprüfschritte ergänzt; bereits klare Trennungen beibehalten",
+    "Primärquellen zu Herkunft, Zeitformat, Hypothesen-/Lernprüfung sowie GitHub-Regeln gelesen und als Anregung mit Grenzen getrennt dokumentiert",
+    "Schema v2 mit Aufzeichnungs-/Arbeits-/Prüfzeit und Modusangaben ergänzt; Vorher-/Nachherherkunft und historische Zwischenstände im Prüfer abgesichert",
+    "Wiederholbare Gegenfalltests mit automatischer temporärer Bereinigung ergänzt; Workflow führt Selbsttests und Kandidatenprüfung ohne Schreibrechte aus",
+    "Administrationsversuch ergab HTTP 403; Sollkonfiguration und sichere Aktivierungs-/Abnahmebeschreibung erstellt, nicht administrativ angewandt"
+  ],
+  "ergebnisse": [
+    "00_systemkern/selbstbeschreibung.md",
+    "01_quellen_und_bestand/bestands_und_lueckenanalyse.md",
+    "01_quellen_und_bestand/methodenquellen.md",
+    "09_arbeitsjournal/schema_v2.json",
+    "09_arbeitsjournal/schutz_und_betrieb.md"
+  ],
+  "aenderungen": [
+    {
+      "pfad": ".github/workflows/journal.yml",
+      "vorher": "c5f8070a7f73e3ec314360ce4a9fc2a7fb00a8e5",
+      "nachher": "42efaabb9b523c954239f026cbb3f17654c7215e",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "00_systemkern/auftrag_und_abgrenzung.md",
+      "vorher": "821c092f3d41e2d33353a82dde97721ff6c973a1",
+      "nachher": "84314ae7fbe5a2fd1ed1be87506fe95aab99f6d9",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "00_systemkern/begriffe_und_beziehungen.md",
+      "vorher": "753a6ee6b679bc1404207da4a2ef42961f392393",
+      "nachher": "c985f26e7159edfa19fbf07d9782df3e189d4b05",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "00_systemkern/fachlandkarte.md",
+      "vorher": "bfb665c5d161b914c4797f0efd1312fc57775de5",
+      "nachher": "98767b459afa3d38bd9014707a241a36ed354aea",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "00_systemkern/selbstbeschreibung.md",
+      "vorher": null,
+      "nachher": "b24088369f6b38a316d3061bc4ecf8b2d60d503f",
+      "modus_vorher": null,
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "01_quellen_und_bestand/bestands_und_lueckenanalyse.md",
+      "vorher": "c533a03aeee9f796738912ac8b06e275a6142978",
+      "nachher": "61ea5b3fe24205a0d0dff046e4cad06b73815d4f",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "01_quellen_und_bestand/methodenquellen.md",
+      "vorher": null,
+      "nachher": "b475fb74ee3e7d5ca96efef28c7afc5558ca1b61",
+      "modus_vorher": null,
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "01_quellen_und_bestand/quellenregister.md",
+      "vorher": "7af2e225c326493e1aada0141b5d5c08750b0b20",
+      "nachher": "b18ff41533bccd3a342efc39e92a1acd81ec611e",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "02_forschung_und_entwicklung/README.md",
+      "vorher": "71d7b892654e879b5f29f09c18eea523fd4ab1b4",
+      "nachher": "988ff967db5abcdecee75c45ded333e16405c2a0",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "03_fachgebiete/betriebsorganisation_und_dienstleister.md",
+      "vorher": "ddc4dd279916a114bb273f0e84af1b2e1aaa797e",
+      "nachher": "1da8f1ab7a57b44e651324b331039f799cc3c638",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "03_fachgebiete/daten_information_dokumente.md",
+      "vorher": "e327ddaf493049664d1fd0c4080364171461419c",
+      "nachher": "1d653d4208a041987d13981e057016fcc520423e",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "03_fachgebiete/fuehrung_befugnisse_verantwortung.md",
+      "vorher": "8540e9255c5db7b527f2d9d585dc8608893fd5c8",
+      "nachher": "af240e00a0d3d42b4389d8b8d48e44468499946c",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "03_fachgebiete/geschaefts_und_wertschoepfungsmodelle.md",
+      "vorher": "592294d8bc2cbd1749b301905057931dfdc54feb",
+      "nachher": "a7a00aada985068308084c868eff857e5e3c87cd",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "03_fachgebiete/gesellschafts_und_kooperationsmodelle.md",
+      "vorher": "d2a4a33a3a4c5c1b8c5e2d189713310b782f8337",
+      "nachher": "7051309ba7642af5f90d1ecdff71072be92ad5a3",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "03_fachgebiete/kontrollsysteme_und_wirksamkeit.md",
+      "vorher": "4259901d18afa2898fc5e5a5a964a46743b3009f",
+      "nachher": "f2fd822f0a4c2cb7132ad9b93391740406109c4d",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "03_fachgebiete/leistungen_und_verguetung.md",
+      "vorher": "c0a076f9ef68820aa18d53500580e1af9f5ccc9d",
+      "nachher": "16a3f46bef6fd9c2546f441725481248287cf1c0",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "03_fachgebiete/recht_compliance_anwendbarkeit.md",
+      "vorher": "9a5eaa8eff03687472f7ed91f6a2e5048660c1b6",
+      "nachher": "8c45587a1669a88eb51390ab60daa71e591396cb",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "03_fachgebiete/risikomanagement.md",
+      "vorher": "705d3d22520b600c45a13204434af1f50732ec28",
+      "nachher": "d95c14ede003f009fcb3c47d391ca7b2353b57b8",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "03_fachgebiete/vertraege_und_regelwerke.md",
+      "vorher": "ddb5fa82820887d56e4a43e20c8ca40dce729011",
+      "nachher": "12884478aafeb7d828185df005c4c27c21cc10a0",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "03_fachgebiete/wirtschaftlichkeit_und_kapazitaet.md",
+      "vorher": "49ffe75dfd7b1ba49c6dd13b436b9efa1366c856",
+      "nachher": "933e8f6e44d6b95409a9313c90815f6e364abe0e",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "04_modelle/README.md",
+      "vorher": "48c0bc6835abc448059a3623485a7ecf4c9174da",
+      "nachher": "21e053dbfa80c9a299f1ae6a4bf863bef7948ed9",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "05_entscheidungen/README.md",
+      "vorher": "ce574e08a324568a71176176a144488bb345ce0e",
+      "nachher": "751f3e08f88ee204aa8f208c518b381dca805372",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "05_entscheidungen/ent_0003_selbstbeschreibung_und_qualitaet.md",
+      "vorher": null,
+      "nachher": "f5fded25245d383eea7abcd3ae59a8d8467df9b4",
+      "modus_vorher": null,
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "06_anwendung_und_pruefung/szenariopruefungen.md",
+      "vorher": "2ae2d157f4a9b0d94b73877aae13e1d8bfd0f627",
+      "nachher": "98d61314817ec762b386187ad26fee14a7e0ebfb",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "07_aenderungen_und_verbesserung/README.md",
+      "vorher": "ce2a5bf42582ed999508af882340fdcd7e9fa677",
+      "nachher": "dd68ec4eb24d2602ff96405be3117a64378a5096",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "08_vorlagen/forschungsakte.md",
+      "vorher": "e8eaee7a01dc2ec18b8e1c40e57fb6b1142e76f0",
+      "nachher": "101b68f9d63d7e817e00f36b9ada601892ad85b8",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "09_arbeitsjournal/README.md",
+      "vorher": "376256ba36eeab2ee6f142979af9fd893a565afb",
+      "nachher": "baf940769fc676af546f1bf9aea747c4e81ad9c9",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "09_arbeitsjournal/pruefen.py",
+      "vorher": "99865a6b862cfdc355743c860358c162b4e068e5",
+      "nachher": "7e2f3af98db2ee64c7585dd19d0a2147ddfcb92f",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "09_arbeitsjournal/schema_v2.json",
+      "vorher": null,
+      "nachher": "ff731cf0f30289039e026541445abcade047d796",
+      "modus_vorher": null,
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "09_arbeitsjournal/schutz_und_betrieb.md",
+      "vorher": null,
+      "nachher": "3b67367e94452f504bdecb3901e3499900d7eeeb",
+      "modus_vorher": null,
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "09_arbeitsjournal/schutzregel.json",
+      "vorher": null,
+      "nachher": "646273739e1e75979964c26ec5055b517c56f1fe",
+      "modus_vorher": null,
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "09_arbeitsjournal/selbsttest.py",
+      "vorher": null,
+      "nachher": "3348076da440e32b06f9a6cf370ff6cd8a1e5d38",
+      "modus_vorher": null,
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "09_arbeitsjournal/vorlage.json",
+      "vorher": "5ff6336eb10c27563b4ee5917b6f0840f3f89490",
+      "nachher": "c90b90be0e32d9b7bd8b96ed408f92cf888dcb9d",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "AGENTS.md",
+      "vorher": "5191768047013951324aac0742db23804770df82",
+      "nachher": "41521da19a28aa5050649fad0bb92673898d9c74",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "README.md",
+      "vorher": "f4782402a600fb0149a6af4e92f0c7b810ea9c69",
+      "nachher": "15e71683ab8b38cf17b0760f232006f7d236609b",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    }
+  ],
+  "pruefungen": [
+    {
+      "verfahren": "46 gepflegte positive und negative Programmselbsttests",
+      "ergebnis": "bestanden",
+      "zeitpunkt": "2026-09-22T22:07:43Z",
+      "bezug": [
+        "09_arbeitsjournal/selbsttest.py",
+        "09_arbeitsjournal/pruefen.py"
+      ],
+      "grenze": "Ausführung in temporären Git-Arbeitsverzeichnissen. Keine unabhängige Fachprüfung, reale Gesellschaft oder serverseitige Merge-Sperre. Ein zunächst falsch isolierter Vorgänger-Test wurde ohne Lockerung des Prüfers korrigiert."
+    },
+    {
+      "verfahren": "Relative Markdown-Verweise und JSON-Syntax (288 Verweise)",
+      "ergebnis": "bestanden",
+      "zeitpunkt": "2026-09-22T22:07:44Z",
+      "bezug": [
+        "README.md",
+        "00_systemkern/selbstbeschreibung.md",
+        "01_quellen_und_bestand/bestands_und_lueckenanalyse.md"
+      ],
+      "grenze": "Datei- und Abschnittsziele der lokalen Arbeitskopie; keine vollständige Erreichbarkeitsprüfung aller externen Links und keine rechtliche Inhaltsprüfung."
+    },
+    {
+      "verfahren": "Unveränderte historische Journalereignisse und Schema v1; Differenzkontrolle",
+      "ergebnis": "bestanden",
+      "zeitpunkt": "2026-09-22T22:07:44Z",
+      "bezug": [
+        "09_arbeitsjournal/schema_v1.json",
+        "09_arbeitsjournal/README.md"
+      ],
+      "grenze": "Vergleich gegen tatsächlichen Ausgangscommit 918b6157ef123645bcc760e189041daeb9a43849. Historische Behauptungen werden nicht nachträglich zu neuen Prüfergebnissen."
+    }
+  ],
+  "entscheidungen": [
+    "05_entscheidungen/ent_0003_selbstbeschreibung_und_qualitaet.md"
+  ],
+  "offen": [
+    {
+      "punkt": "Kandidat noch nicht als auf main veröffentlicht oder ferngeprüft behauptet",
+      "naechste_handlung": "Exakten Baum übertragen, PR erstellen, ausgeführten Check und Kandidaten lesen und regulär zusammenführen",
+      "verantwortung": "Beauftragte Bearbeitung",
+      "ausloeser": "Fortsetzung dieses Auftrags"
+    },
+    {
+      "punkt": "Administrative Aktivierung der Schutzregel blockiert",
+      "naechste_handlung": "Vorhandene Regeln mit Administrationszugang lesen und Sollregel sicher abgleichen; Aktivierung und echte Sperrwirkung nachweisen",
+      "verantwortung": "Repository-Inhaber oder befugte Administration",
+      "ausloeser": "Verfügbarer regulärer Administrationszugriff"
+    }
+  ],
+  "fortsetzung": {
+    "verfolgungsort": "https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2",
+    "naechste_handlung": "Journalisierten Kandidaten lokal gegen die tatsächliche Basis prüfen, regulär über PR veröffentlichen und nur beobachtete Ergebnisse nachtragen. Administrationspunkt getrennt offen lassen.",
+    "einstieg": [
+      "README.md",
+      "AGENTS.md",
+      "09_arbeitsjournal/README.md",
+      "09_arbeitsjournal/schutz_und_betrieb.md"
+    ]
+  },
+  "grenzen": [
+    "KI-Selbstprüfung, kein unabhängiger zweiter Agent oder Mensch",
+    "Kein Ersatz für tatsächliche Modell-/Vertragsprüfung, alte Originalfassungen oder Betriebsbeobachtungen",
+    "Soll-JSON ist keine aktive Ruleset-Einstellung; frühere Journale und Schemas bleiben unverändert",
+    "Journalzeit präzisiert Aufzeichnung, nicht unbekannte historische Geltung; technische Validität ist kein Wahrheitsbeweis"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "eintrag_id": null,
   "auftrag_id": null,
   "uebergeordneter_auftrag": null,
@@ -33,5 +33,11 @@
     "naechste_handlung": null,
     "einstieg": []
   },
-  "grenzen": []
+  "grenzen": [],
+  "arbeitszeitraum": {
+    "von": null,
+    "bis": null,
+    "zeitquelle": "unbekannt",
+    "hinweis": null
+  }
 }

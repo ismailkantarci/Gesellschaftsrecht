@@ -20,3 +20,9 @@ Die Akte verweist auf maßgebliche Fachbewertungen, Quellen, Entscheidungen und 
 Vor einem Modellpaket: Anwendungsbereich, genaue enthaltene Fassungen, notwendige Voraussetzungen, Leistungsgrenzen, offene Punkte, Verwendungserlaubnis, Einführung und Kontrollplan dokumentieren. Ein späterer Paketstand ändert vorhandene Verträge nicht automatisch.
 
 Arbeitsform: [Modellakte](../08_vorlagen/modellakte.md). Konkrete Umsetzung: [Anwendung und Prüfung](../06_anwendung_und_pruefung/README.md).
+
+## Zusammenstellung ohne konkurrierende Wahrheit
+
+Ein zur Verwendung bestimmtes Paket enthält eine Liste der genauen Quell-/Bewertungsstände, des Profils, der Entscheidungen, der Verfahren und der bezeichneten Verwendungsgrenze. Jeder Baustein hat einen maßgeblichen Ort. Ein wesentlicher Baustein mit ungeklärter Anwendbarkeit oder fehlender Mitwirkung wird nicht durch Vollständigkeit der Dateiliste geheilt.
+
+Der Gebrauch kann auf Forschung, Fachprüfung, begrenzte Erprobung oder eine tatsächlich genehmigte Anwendung begrenzt sein. Die Gesellschaftsanwendung referenziert den wirklich verwendeten Paketstand und ihre Abweichungen. Bei Änderung wird die Wirkung auf bestehende Anwendungen untersucht, nicht die Vergangenheit durch die neue Vorlage ersetzt.

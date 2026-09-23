@@ -1,0 +1,512 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:taxipartner:gesellschaftsrecht:arbeitsjournal:2",
+  "title": "Arbeitsjournal – Eintrag, Version 2",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 2
+    },
+    "eintrag_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "auftrag_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "uebergeordneter_auftrag": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uuid"
+    },
+    "ereignis": {
+      "enum": [
+        "beginn",
+        "zwischenstand",
+        "uebergabe",
+        "abschluss",
+        "blockiert",
+        "abbruch",
+        "korrektur"
+      ]
+    },
+    "zeitpunkt": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?Z$"
+    },
+    "akteur": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "bezeichnung": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 6000
+        },
+        "typ": {
+          "enum": [
+            "mensch",
+            "ki",
+            "automatisierung"
+          ]
+        },
+        "rolle": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 6000
+        }
+      },
+      "required": [
+        "bezeichnung",
+        "typ",
+        "rolle"
+      ]
+    },
+    "vorgaenger": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "minItems": 0,
+      "maxItems": 300,
+      "uniqueItems": true
+    },
+    "korrektur_fuer": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "minItems": 0,
+      "maxItems": 300,
+      "uniqueItems": true
+    },
+    "auftrag": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "quelle": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 6000
+        },
+        "zusammenfassung": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 6000
+        },
+        "erlaubter_umfang": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 6000
+          },
+          "minItems": 1,
+          "maxItems": 300,
+          "uniqueItems": true
+        },
+        "ausgeschlossen": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 6000
+          },
+          "minItems": 1,
+          "maxItems": 300,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "quelle",
+        "zusammenfassung",
+        "erlaubter_umfang",
+        "ausgeschlossen"
+      ]
+    },
+    "basis": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "quellen": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 6000
+          },
+          "minItems": 1,
+          "maxItems": 300,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "commit",
+        "quellen"
+      ]
+    },
+    "taetigkeiten": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 6000
+      },
+      "minItems": 0,
+      "maxItems": 300,
+      "uniqueItems": true
+    },
+    "ergebnisse": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 6000
+      },
+      "minItems": 0,
+      "maxItems": 300,
+      "uniqueItems": true
+    },
+    "aenderungen": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "pfad": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          },
+          "vorher": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9a-f]{40}$"
+          },
+          "nachher": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9a-f]{40}$"
+          },
+          "modus_vorher": {
+            "enum": [
+              "100644",
+              "100755",
+              null
+            ]
+          },
+          "modus_nachher": {
+            "enum": [
+              "100644",
+              "100755",
+              null
+            ]
+          }
+        },
+        "required": [
+          "pfad",
+          "vorher",
+          "nachher",
+          "modus_vorher",
+          "modus_nachher"
+        ]
+      },
+      "minItems": 0,
+      "maxItems": 300,
+      "uniqueItems": true
+    },
+    "pruefungen": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "verfahren": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 6000
+          },
+          "ergebnis": {
+            "enum": [
+              "bestanden",
+              "fehlgeschlagen",
+              "nicht_geprueft",
+              "nicht_beurteilbar"
+            ]
+          },
+          "bezug": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 6000
+            },
+            "minItems": 1,
+            "maxItems": 300,
+            "uniqueItems": true
+          },
+          "grenze": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 6000
+          },
+          "zeitpunkt": {
+            "type": "string",
+            "format": "date-time",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?Z$"
+          }
+        },
+        "required": [
+          "verfahren",
+          "ergebnis",
+          "bezug",
+          "grenze",
+          "zeitpunkt"
+        ]
+      },
+      "minItems": 0,
+      "maxItems": 300,
+      "uniqueItems": true
+    },
+    "entscheidungen": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 6000
+      },
+      "minItems": 0,
+      "maxItems": 300,
+      "uniqueItems": true
+    },
+    "offen": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "punkt": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 6000
+          },
+          "naechste_handlung": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 6000
+          },
+          "verantwortung": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 6000
+          },
+          "ausloeser": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 6000
+          }
+        },
+        "required": [
+          "punkt",
+          "naechste_handlung",
+          "verantwortung",
+          "ausloeser"
+        ]
+      },
+      "minItems": 0,
+      "maxItems": 300,
+      "uniqueItems": true
+    },
+    "fortsetzung": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "verfolgungsort": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 6000
+        },
+        "naechste_handlung": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 6000
+        },
+        "einstieg": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 6000
+          },
+          "minItems": 1,
+          "maxItems": 300,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "verfolgungsort",
+        "naechste_handlung",
+        "einstieg"
+      ]
+    },
+    "grenzen": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 6000
+      },
+      "minItems": 1,
+      "maxItems": 300,
+      "uniqueItems": true
+    },
+    "arbeitszeitraum": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "von",
+        "bis",
+        "zeitquelle",
+        "hinweis"
+      ],
+      "properties": {
+        "von": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?Z$"
+        },
+        "bis": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?Z$"
+        },
+        "zeitquelle": {
+          "enum": [
+            "systemuhr",
+            "belegte_quelle",
+            "unbekannt"
+          ]
+        },
+        "hinweis": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 6000
+        }
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "eintrag_id",
+    "auftrag_id",
+    "uebergeordneter_auftrag",
+    "ereignis",
+    "zeitpunkt",
+    "akteur",
+    "vorgaenger",
+    "korrektur_fuer",
+    "auftrag",
+    "basis",
+    "taetigkeiten",
+    "ergebnisse",
+    "aenderungen",
+    "pruefungen",
+    "entscheidungen",
+    "offen",
+    "fortsetzung",
+    "grenzen",
+    "arbeitszeitraum"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "ereignis": {
+            "const": "beginn"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "vorgaenger": {
+            "maxItems": 0
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "vorgaenger": {
+            "minItems": 1
+          },
+          "taetigkeiten": {
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "ereignis": {
+            "const": "korrektur"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "korrektur_fuer": {
+            "minItems": 1
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "korrektur_fuer": {
+            "maxItems": 0
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "ereignis": {
+            "enum": [
+              "blockiert",
+              "abbruch"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "offen": {
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ],
+  "$comment": "Zeitprofil: UTC mit Sekunden; genaue Erfassung ist kein Nachweis einer synchronisierten oder beglaubigten Uhr. Version 1 bleibt unverändert."
+}

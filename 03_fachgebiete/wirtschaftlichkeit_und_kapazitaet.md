@@ -19,3 +19,11 @@ Annahmenregister, nachvollziehbare Kalkulation, Liquiditätsverlauf, Sensitivit�
 ## Abnahme und Verbindungen
 
 Ein positiver Überschuss verdeckt weder fehlende Liquidität noch nicht leistbare Betreuung. Kalkulation und [Leistungskatalog](leistungen_und_verguetung.md) müssen denselben Umfang betreffen. [Risiken](risikomanagement.md) und [Kontrollaufwand](kontrollsysteme_und_wirksamkeit.md) sind berücksichtigt; gemessene und angenommene Werte bleiben sichtbar.
+
+## Rechenweg und belastbare Eingaben
+
+Eine Kalkulation nennt Betrachtungseinheit, Zeitraum, Leistungsumfang, Netto-/Bruttobezug und Herkunft jeder Eingabe. Erlös, Aufwand, Zahlung und Eigenarbeit bleiben getrennt; dieselbe Position nicht zugleich pauschal und als Einzelkosten ansetzen. Anfangsinvestition, laufende Kosten und außergewöhnlicher Bedarf werden sichtbar, ohne unbekannte Werte durch Null zu ersetzen.
+
+Betreiber- und KMS-Sicht zunächst getrennt rechnen. Bei einer gemeinsamen Betrachtung interne Zahlungen nicht nochmals als zusätzlicher Gesamtnutzen zählen. Für Kapazität produktiv verfügbare Zeit, Regelarbeit, Kontrollen, Ausnahmen und Reserve erheben. Der Durchschnitt allein verdeckt Belastungsspitzen; deshalb Fristballungen und Ausfall der betreuenden Person gesondert betrachten. Unbezahlte eigene Arbeit wird nicht mit fehlendem Aufwand gleichgesetzt.
+
+Vor einer Empfehlung die empfindlichsten Annahmen verändern und zeigen, unter welchen Bedingungen die Variante nicht mehr tragfähig wäre. Ergebnis, Liquiditätsbedarf und ausführbare Betreuung sind drei getrennte Aussagen. Ohne belastbare Eingaben kann die richtige Ausgabe ein Erhebungsplan sein; Zahlenästhetik ersetzt keine Wirtschaftlichkeitsprüfung.

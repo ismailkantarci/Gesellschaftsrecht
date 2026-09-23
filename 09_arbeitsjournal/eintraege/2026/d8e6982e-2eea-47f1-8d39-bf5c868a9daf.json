@@ -1,0 +1,144 @@
+{
+  "schema_version": 2,
+  "eintrag_id": "d8e6982e-2eea-47f1-8d39-bf5c868a9daf",
+  "auftrag_id": "88e580f5-59ad-449c-accf-a4c967aa9fc9",
+  "uebergeordneter_auftrag": null,
+  "ereignis": "zwischenstand",
+  "zeitpunkt": "2026-09-23T09:46:49Z",
+  "arbeitszeitraum": {
+    "von": "2026-09-23T09:40:25Z",
+    "bis": "2026-09-23T09:46:49Z",
+    "zeitquelle": "systemuhr",
+    "hinweis": "Fortsetzung ab beobachteter PR-Erstellung und echter CI-Fehleranalyse. Keine rückwirkend erfundenen Ausführungszeiten."
+  },
+  "akteur": {
+    "bezeichnung": "ChatGPT",
+    "typ": "ki",
+    "rolle": "Beauftragte Fehleranalyse und Selbstprüfung vor Veröffentlichung"
+  },
+  "vorgaenger": [
+    "5239f44c-20c2-4592-87fa-3d53c3e2f2cf"
+  ],
+  "korrektur_fuer": [],
+  "auftrag": {
+    "quelle": "https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2",
+    "zusammenfassung": "Die Veröffentlichung mit echten Kontrollen vervollständigen; einen im PR tatsächlich aufgetretenen Fehler beheben, ohne Prüfung zu überspringen.",
+    "erlaubter_umfang": [
+      "Reguläre PR-Veröffentlichung und erforderliche Korrektur des Journal-Prüfverfahrens",
+      "Fehler, Ursache, Reproduktion und Ergebnis mit Herkunft journalisieren"
+    ],
+    "ausgeschlossen": [
+      "Keine Umgehung fehlgeschlagener Checks oder Administrationsrechte",
+      "Keine rückwirkende Änderung historischer Ereignisse oder versionierter Schemas",
+      "Keine Fachfreigabe oder externe Betriebsprüfung behaupten"
+    ]
+  },
+  "basis": {
+    "commit": "7ec0f20c3f2a1bd25a1e3ecb71b9667f455fc2f7",
+    "quellen": [
+      "09_arbeitsjournal/pruefen.py",
+      "09_arbeitsjournal/selbsttest.py",
+      ".github/workflows/journal.yml",
+      "09_arbeitsjournal/README.md"
+    ]
+  },
+  "taetigkeiten": [
+    "PR #3 auf dem bestehenden Arbeitszweig geöffnet. Echter PR-Lauf 35844322744, Job 107126677845: 45 von 46 Selbsttests erfolgreich; test_14_invalid_calendar fehlgeschlagen; eigentliche Journalprüfung übersprungen. Nicht gemergt.",
+    "Ursache: Im Minimalpaket jsonschema fehlt ein optionaler date-time-Prüfer. Das ungültige Kalenderdatum wurde trotzdem durch datetime zurückgewiesen, aber mit anderer Diagnose. Die ursprüngliche Testannahme war umgebungsabhängig.",
+    "Den Fehler mit dem unveränderten vorherigen Prüfer ohne importierbares rfc3339_validator reproduziert. Die frühere lokale erfolgreiche Prüfung bleibt ein historisch zutreffendes, aber nicht auf CI übertragbares Ergebnis.",
+    "Eine eigene instanzgebundene Kalenderprüfung mit Python-Standardbibliothek eingebaut; schema_v1.json, schema_v2.json und alle veröffentlichten Ereignisse unverändert belassen.",
+    "Vier Regressionstests ergänzt: gültiger/ungültiger Zeitpunkt ohne optionalen Formatprüfer, unwirksamer optionaler Prüfer und Kalender-/Offsetgrenzen. Den ursprünglichen negativen Test nicht abgeschwächt.",
+    "Alle 50 Tests in normaler Umgebung und nochmals mit gesperrtem optionalem Datumspaket ausgeführt; beide Durchläufe erfolgreich. Dokumentation um Ursache und Grenzen ergänzt."
+  ],
+  "ergebnisse": [
+    "09_arbeitsjournal/pruefen.py",
+    "09_arbeitsjournal/selbsttest.py",
+    "09_arbeitsjournal/README.md",
+    "https://github.com/ismailkantarci/Gesellschaftsrecht/pull/3"
+  ],
+  "aenderungen": [
+    {
+      "pfad": "09_arbeitsjournal/pruefen.py",
+      "vorher": "7e2f3af98db2ee64c7585dd19d0a2147ddfcb92f",
+      "nachher": "5e69e39baf71d45aa7d94709f5c73e2d15878470",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "09_arbeitsjournal/selbsttest.py",
+      "vorher": "3348076da440e32b06f9a6cf370ff6cd8a1e5d38",
+      "nachher": "a10153a741fc9983599d62c126d34f9dcc9a03f2",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "09_arbeitsjournal/README.md",
+      "vorher": "baf940769fc676af546f1bf9aea747c4e81ad9c9",
+      "nachher": "2d994c4d2e9cdd4127364e88a80aea706d73e752",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    }
+  ],
+  "pruefungen": [
+    {
+      "verfahren": "Tatsächlicher ursprünglicher PR-Lauf",
+      "ergebnis": "fehlgeschlagen",
+      "zeitpunkt": "2026-09-23T09:40:44Z",
+      "bezug": [
+        "https://github.com/ismailkantarci/Gesellschaftsrecht/actions/runs/35844322744"
+      ],
+      "grenze": "Beobachteter Job 107126677845: test_14 fehlgeschlagen. Die nachfolgende Journalprüfung wurde nicht ausgeführt. Kein Merge oder grüner Gesamtstatus."
+    },
+    {
+      "verfahren": "Reproduktion der CI-Ursache am unveränderten vorherigen Teststand",
+      "ergebnis": "bestanden",
+      "zeitpunkt": "2026-09-23T09:45:52Z",
+      "bezug": [
+        "09_arbeitsjournal/selbsttest.py"
+      ],
+      "grenze": "Erwarteter Exitcode 1 und derselbe einzelne Testfehler ohne rfc3339_validator reproduziert. Dies ist ein erfolgreicher Fehlernachweis, kein bestandener alter Prüfer."
+    },
+    {
+      "verfahren": "50 Selbsttests mit unabhängiger Kalenderprüfung ohne optionales Datumspaket",
+      "ergebnis": "bestanden",
+      "zeitpunkt": "2026-09-23T09:45:57Z",
+      "bezug": [
+        "09_arbeitsjournal/selbsttest.py",
+        "09_arbeitsjournal/pruefen.py"
+      ],
+      "grenze": "Lokaler kontrollierter Importausfall und Regressionstests; neuer ferner PR-Lauf nach Veröffentlichung dieser Korrektur noch ausstehend. Keine unabhängige Fachprüfung."
+    }
+  ],
+  "entscheidungen": [
+    "05_entscheidungen/ent_0003_selbstbeschreibung_und_qualitaet.md"
+  ],
+  "offen": [
+    {
+      "punkt": "Korrigierter Kandidat benötigt den erneut tatsächlich ausgeführten PR-Check",
+      "naechste_handlung": "Korrektur samt diesem Ereignis veröffentlichen, Head und alle Prüfschritte zurücklesen, nur bei erfolgreichem Ergebnis regulär mergen.",
+      "verantwortung": "Beauftragte Bearbeitung",
+      "ausloeser": "Dieser Arbeitsgang"
+    },
+    {
+      "punkt": "Branchschutz mit vorhandener Integration weiterhin administrativ blockiert",
+      "naechste_handlung": "Vorbereitete Regel durch befugten Repository-Inhaber importieren und aktive Schutzwirkung gesondert prüfen.",
+      "verantwortung": "Repository-Inhaber oder befugte Administration",
+      "ausloeser": "Verfügbarer Administrationszugriff"
+    }
+  ],
+  "fortsetzung": {
+    "verfolgungsort": "https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2",
+    "naechste_handlung": "PR #3 nach Korrektur erneut prüfen und dann veröffentlichen; fehlgeschlagenen Lauf als historische Evidenz erhalten.",
+    "einstieg": [
+      "AGENTS.md",
+      "09_arbeitsjournal/README.md",
+      "09_arbeitsjournal/schutz_und_betrieb.md"
+    ]
+  },
+  "grenzen": [
+    "Der frühe grüne lokale Lauf ersetzt den echten CI-Nachweis nicht.",
+    "Kein Check wurde deaktiviert oder übersprungen, um einen Merge zu ermöglichen.",
+    "Dieses Ereignis dokumentiert die Korrektur, nicht bereits ihre erfolgreiche Ausführung auf GitHub.",
+    "Keine Branchregel aktiviert, keine fachlichen Modelle freigegeben."
+  ]
+}

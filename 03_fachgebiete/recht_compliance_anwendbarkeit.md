@@ -21,3 +21,11 @@ Anwendbar, bedingt anwendbar, mittelbar relevant, nicht anwendbar und ungeklärt
 Quellenregister, begründete Anwendbarkeit, Pflichtenübersicht, Fristenregeln und Fachfragen. Herkunft bis zur genauen Fundstelle auffindbar; keine erfundenen Fristen oder automatischen Rechtswirkungen. Materielle Rechtsprüfung ist mit Datum und Umfang zu dokumentieren.
 
 [QU-0002](../01_quellen_und_bestand/compliance_v08_bestandsaufnahme.md) ist eine inventarisierte Ausgangsquelle, kein freigegebener Rechtsbestand. Die Verbindung zu [Verträgen](vertraege_und_regelwerke.md), [Betrieb](betriebsorganisation_und_dienstleister.md) und [Kontrollen](kontrollsysteme_und_wirksamkeit.md) wird geprüft, nicht durch Kopieren unterstellt.
+
+## Von der Fundstelle zur begrenzten Aussage
+
+Zunächst den sachlichen und zeitlichen Anwendungsrahmen festlegen. Die einschlägige Primärquelle mit konkreter Fassung und Fundstelle lesen; anschließend ihre Aussage getrennt von der eigenen Einordnung formulieren. Ein Branchenhinweis kann zu einer Quelle führen, ersetzt aber nicht die Prüfung der Norm, ihrer Übergänge und des konkreten Sachverhalts.
+
+Der Katalog muss erkennen lassen, ob eine Regel direkt gilt, unter noch nachzuweisenden Bedingungen gilt, nur Rechte oder Pflichten Dritter betrifft, nicht gilt oder ungeklärt ist. Eine Ausnahme braucht ihre tatsächlichen Voraussetzungen. Bei Widerspruch zwischen Quellen oder Tatsachen nicht eine Datei als „neueste“ bevorzugen, sondern den Konflikt und nötigen Klärungsschritt angeben.
+
+Erst danach Prozess, Befugnis, Kontrolle und erwarteten Nachweis zuordnen. Die gesetzlich geforderte Handlung, intern gewählte Kontrollfrequenz und konkrete Aufgabenfrist bleiben verschiedene Angaben. Änderungen werden nur in ihrem betroffenen Umfang neu bewertet. Das Dokumentieren dieser Methode ist keine Bestätigung, dass sämtliche Datensätze der alten Arbeitsmappe inhaltlich richtig oder vollständig sind.

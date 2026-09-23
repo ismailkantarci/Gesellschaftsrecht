@@ -17,3 +17,11 @@ Nutzenbeschreibung, Variantenvergleich, überprüfbare Annahmen und Messplan. F�
 ## Abnahme und Verbindungen
 
 Die bevorzugte Variante muss Vorteile, Nachteile, Aufwand, Gegenargumente und ungeeignete Anwendungssituationen nennen. Ihr Nutzen ist mit [Leistungen](leistungen_und_verguetung.md), [Wirtschaftlichkeit](wirtschaftlichkeit_und_kapazitaet.md) und [Betrieb](betriebsorganisation_und_dienstleister.md) vereinbar. Die Auswahl trifft nicht automatisch die Rechtsformwahl.
+
+## Vom Bedarf zu einem prüfbaren Nutzenversprechen
+
+Zuerst die Perspektiven getrennt erfassen: Fahrer, wirtschaftlicher Betreiber, Gesellschaft und KMS können verschiedene Vorteile und Belastungen haben. Ein Vorteil für KMS wird nicht ohne Befund zum Vorteil des Partners erklärt. Für die betrachtete Personengruppe die konkrete Tätigkeit, heutige Schwierigkeit, bisherige Alternative und gewünschte Verbesserung aufnehmen. Aussagen aus Gesprächen bleiben Aussagen; tatsächliche Beobachtungen werden getrennt vermerkt.
+
+Eine tragende Hypothese nennt den erwarteten Mechanismus: welche veränderte Leistung soll welche beobachtbare Wirkung auslösen? Der Versuch erhält vorher Messgröße, Betrachtungszeitraum, Vergleichsgrundlage, Erfolgsschwelle und Widerlegungskriterium. Ein Kostenziel, das nur Arbeit auf den Partner verlagert, muss auch dessen Aufwand ausweisen. Unterschiedliche Unternehmensgrößen, Saison, Plattformmix und Betriebsprofile nicht ohne Erklärung vergleichen.
+
+Nach dem Versuch Beobachtung, Interpretation und Entscheidung trennen. Fehlende Daten können weder Erfolg noch Misserfolg beweisen. Das Ergebnis kann ein kleinerer Leistungsumfang, eine veränderte Hypothese oder ein Abbruch sein. Die methodische Anregung ist in [QU-0010/0011](../01_quellen_und_bestand/methodenquellen.md#qu-0010-und-qu-0011-hypothese-versuch-und-lernen) verzeichnet; es wird kein fremdes Formular oder Geschäftsmodell übernommen.

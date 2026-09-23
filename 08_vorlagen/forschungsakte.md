@@ -31,3 +31,9 @@ Empfehlung, Alternativen, Kosten, Risiken, offene Fachfragen, notwendige Entsche
 Maßgeblichen Verfolgungsort, Prioritätsgrund, jetzt bearbeitbaren Schritt, notwendige Eingaben und [Prüftiefe](../00_systemkern/arbeitsweise_und_freigaben.md#prüftiefe-nach-wirkung) benennen. Bei Warten: Ursache, Beschaffungsweg, Nachfassrolle und nächster Termin/Auslöser. Forschungsergebnis und Entscheidungsvorschlag an den benannten Empfänger mit Ergebnisfassung und Annahmekriterien übergeben. Nicht auf eine unbekannte Person vorbelegen.
 
 Nutzenannahme, Ausgangslage, Messgröße, Beobachtungszeitraum und Widerlegungskriterium festhalten. Diese Angaben beschreiben einen Prüfplan; ohne Beobachtung keine positive Wirkung behaupten. Im [Journal](../09_arbeitsjournal/README.md) nur Arbeit, Ergebnisverweis, Grenzen und Fortsetzung berichten; Forschungsinhalt nicht doppelt pflegen.
+
+## Vorab festgelegter Versuch und Auswertung
+
+Vor Durchführung: kritische Hypothese, geeignete Methode, Vergleichsgrundlage, Messgröße, Entscheidungsschwelle, Aufwand, Risiken und Abbruchbedingung. Planfassung und tatsächlichen Beobachtungszeitraum getrennt festhalten; unbekannte Werte bleiben offene Eingaben.
+
+Nach Durchführung: tatsächliche Beobachtung, Abweichung vom Plan, Interpretation, Gegenargument, noch nicht entscheidbare Frage und daraus folgende Handlung. Nachträglich geänderte Kriterien nicht als ursprünglichen Plan darstellen. Maßgeblicher Methodenweg: [Forschung und Lernen](../02_forschung_und_entwicklung/README.md#versuchsdesign-und-lernen).
