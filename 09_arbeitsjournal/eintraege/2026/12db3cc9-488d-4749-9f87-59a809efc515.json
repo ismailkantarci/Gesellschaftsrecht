@@ -1,0 +1,119 @@
+{
+  "schema_version": 2,
+  "eintrag_id": "12db3cc9-488d-4749-9f87-59a809efc515",
+  "auftrag_id": "88e580f5-59ad-449c-accf-a4c967aa9fc9",
+  "uebergeordneter_auftrag": null,
+  "ereignis": "uebergabe",
+  "zeitpunkt": "2026-09-23T09:56:46Z",
+  "arbeitszeitraum": {
+    "von": "2026-09-23T09:46:49Z",
+    "bis": "2026-09-23T09:56:46Z",
+    "zeitquelle": "systemuhr",
+    "hinweis": "Beobachtete Veröffentlichung und ferne Nachprüfung nach dem dokumentierten CI-Fehler; administrativer Rest getrennt."
+  },
+  "akteur": {
+    "bezeichnung": "ChatGPT",
+    "typ": "ki",
+    "rolle": "Beauftragte Veröffentlichung und prüfbare Übergabe des Administrationsrests"
+  },
+  "vorgaenger": [
+    "d8e6982e-2eea-47f1-8d39-bf5c868a9daf"
+  ],
+  "korrektur_fuer": [],
+  "auftrag": {
+    "quelle": "https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2",
+    "zusammenfassung": "Offene Inhaltsveröffentlichung und tatsächliche Prüfungen vervollständigen; verbliebene Administrationsgrenze ausdrücklich von erledigter Fachsystempflege trennen.",
+    "erlaubter_umfang": [
+      "Reguläre PR-Veröffentlichung des geprüften Qualitätspakets",
+      "Ergebnisse zurücklesen und wirklichen Fortsetzungspunkt dokumentieren"
+    ],
+    "ausgeschlossen": [
+      "Keine Umgehung fehlender Administrationsrechte",
+      "Keine erfundene Schutzaktivierung, zweite Prüferperson oder Fachfreigabe",
+      "Keine historischen Journalereignisse umschreiben"
+    ]
+  },
+  "basis": {
+    "commit": "d2e7475603f247d98da406f5b0edf78ef7cca764",
+    "quellen": [
+      "README.md",
+      "AGENTS.md",
+      "09_arbeitsjournal/README.md",
+      "09_arbeitsjournal/schutz_und_betrieb.md"
+    ]
+  },
+  "taetigkeiten": [
+    "Korrigierten Kandidaten c7b7fa47394fcf7923727d7f92dab48f18118ad0 über den bestehenden Arbeitszweig veröffentlicht. Kein Force-Push.",
+    "Den echten PR-Lauf 35845502710, Job 107130553738, samt Schritten und Protokoll gelesen: 50 Selbsttests bestanden; nachfolgende Journal-/Herkunfts-/Append-only-Prüfung ausgeführt und bestanden, zehn Ereignisse, Baum f2e89e3c28201a578e0c6a98230271aa64e11ed7.",
+    "PR #3 mit unverändertem Basisstand 918b6157ef123645bcc760e189041daeb9a43849 und exakt geprüftem Head regulär gemergt. Mergecommit d2e7475603f247d98da406f5b0edf78ef7cca764 zurückgelesen; sein Baum stimmt mit dem geprüften Kandidaten überein.",
+    "Selbstbeschreibung im veröffentlichten Mergecommit zurückgelesen. OS-Abgrenzung, eigene fachliche Zuständigkeit und Voraussetzungen für kontrollierte Übergabe sind enthalten.",
+    "Den anschließenden Push-Lauf auf main 35845675964, Job 107131122340, zurückgelesen: Gegenfalltests und eigentliche Journalprüfung erfolgreich und nicht übersprungen.",
+    "Branchmetadaten nach Veröffentlichung weiterhin protected=false. Die administrative 403-Grenze ist unverändert offen; eine Soll-JSON-Datei wird nicht als Aktivierung gewertet."
+  ],
+  "ergebnisse": [
+    "https://github.com/ismailkantarci/Gesellschaftsrecht/pull/3",
+    "https://github.com/ismailkantarci/Gesellschaftsrecht/commit/d2e7475603f247d98da406f5b0edf78ef7cca764",
+    "00_systemkern/selbstbeschreibung.md",
+    "09_arbeitsjournal/schutzregel.json"
+  ],
+  "aenderungen": [],
+  "pruefungen": [
+    {
+      "verfahren": "Ferne PR-Prüfung des korrigierten Kandidaten",
+      "ergebnis": "bestanden",
+      "zeitpunkt": "2026-09-23T09:52:55Z",
+      "bezug": [
+        "https://github.com/ismailkantarci/Gesellschaftsrecht/actions/runs/35845502710"
+      ],
+      "grenze": "Head c7b7fa47394fcf7923727d7f92dab48f18118ad0; 50 Programmselbsttests und zehn Journalereignisse, nicht eine unabhängige juristische oder betriebliche Prüfung."
+    },
+    {
+      "verfahren": "Veröffentlichung und Push-Prüfung auf main",
+      "ergebnis": "bestanden",
+      "zeitpunkt": "2026-09-23T09:54:43Z",
+      "bezug": [
+        "https://github.com/ismailkantarci/Gesellschaftsrecht/commit/d2e7475603f247d98da406f5b0edf78ef7cca764",
+        "https://github.com/ismailkantarci/Gesellschaftsrecht/actions/runs/35845675964"
+      ],
+      "grenze": "Dieses spätere Übergabeereignis ist nicht Bestandteil jener bereits gelaufenen Prüfung. Eigene Veröffentlichung und Prüfung erfolgen gesondert ohne rückwirkende Aussage."
+    },
+    {
+      "verfahren": "Administrativer Schutz des main-Zweigs",
+      "ergebnis": "nicht_beurteilbar",
+      "zeitpunkt": "2026-09-23T09:56:46Z",
+      "bezug": [
+        "09_arbeitsjournal/schutz_und_betrieb.md",
+        "09_arbeitsjournal/schutzregel.json"
+      ],
+      "grenze": "GET auf Branchschutz verweigert (403), keine Rulesets bei der Eingangskontrolle, aktuelle Branchmetadaten ungeschützt. Keine Administrationsmutation verfügbar oder Schutzwirkung erprobt."
+    }
+  ],
+  "entscheidungen": [
+    "05_entscheidungen/ent_0003_selbstbeschreibung_und_qualitaet.md"
+  ],
+  "offen": [
+    {
+      "punkt": "Nur der administrativ aktivierte und nachgewiesene main-Schutz dieses Auftrags fehlt noch",
+      "naechste_handlung": "Mit eigenem berechtigten GitHub-Administrationszugriff Settings > Rulesets > New ruleset > Import a ruleset verwenden, 09_arbeitsjournal/schutzregel.json laden und vor Create main, Active, journal/GitHub Actions sowie leere Bypass-Liste kontrollieren. Danach aktive Regel und Sperrwirkung prüfen; #2 erst bei vollständigem Nachweis schließen.",
+      "verantwortung": "Repository-Inhaber oder befugte Administration; keine bestätigte Übernahme durch Dritte behauptet",
+      "ausloeser": "Berechtigter Administrationszugriff"
+    }
+  ],
+  "fortsetzung": {
+    "verfolgungsort": "https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2",
+    "naechste_handlung": "Das Inhaltspaket ist auf main veröffentlicht; nicht erneut importieren. Nur die dokumentierte Schutzkonfiguration mit berechtigtem Administrationszugriff aktivieren und nachprüfen. Facharbeit in MA-0001 bleibt ein anderer Auftrag.",
+    "einstieg": [
+      "README.md",
+      "AGENTS.md",
+      "09_arbeitsjournal/schutz_und_betrieb.md",
+      "09_arbeitsjournal/schutzregel.json"
+    ]
+  },
+  "grenzen": [
+    "Inhaltliche Veröffentlichung und erfolgreicher CI-Lauf ersetzen keinen Branchschutz.",
+    "Die frühere Blockade und der echte fehlgeschlagene CI-Lauf bleiben im historischen Verlauf erhalten.",
+    "Temporäre Test-/Rekonstruktionsdateien gehören nicht zum veröffentlichten Baum.",
+    "Weder andere Repositorys noch vertrauliche Originale wurden geändert oder importiert.",
+    "Dieses Ereignis beendet die erreichbare Inhalts-/Prüfarbeit und übergibt den offenen Administrationspunkt; kein pauschales erfolgreiches Gesamtmandat behauptet."
+  ]
+}
