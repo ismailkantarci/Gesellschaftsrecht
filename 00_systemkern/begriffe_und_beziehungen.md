@@ -42,3 +42,10 @@ Problem → Forschungsfrage → Variante → Bewertung → Entscheidung → Mode
 Quelle/Fassung → Anwendbarkeit → Pflicht oder Leistungsbedingung → Prozess und Befugnis → Kontrolle → konkreter Nachweis → Bewertung und Korrektur.
 
 Diese Verbindungen sind fachliche Verweise. Die Einrichtung legt keine Datenbank, technische Plattform oder fremde Objektarchitektur fest.
+
+
+## Fachliche Zeit und Arbeitsaufzeichnung
+
+Fachlicher Geltungszeitraum, ursprüngliches Quelldatum, Kenntnisnahme, tatsächliche Handlung, dokumentierte Prüfung und Git-Veröffentlichung werden auch bei genauer Sekundenangabe nicht gleichgesetzt. Eine zurückliegende rechtliche Wirkung wird aus ihrer einschlägigen Grundlage untersucht; ein aktueller Upload erzeugt sie nicht. Das [Journal-Zeitprofil](../09_arbeitsjournal/README.md#zeit-und-schemafortschreibung) ordnet die Arbeitsaufzeichnung, nicht die materiellen Wirkungen eines Vertrags.
+
+Unbekannte Werte bleiben ausdrücklich unbekannt. Die Aufzeichnung eines Ergebnisses darf später erfolgen als die Tätigkeit; sie nennt dann die belegte Tätigkeit und ihren tatsächlich bekannten Zeitraum, ohne eine frühere Aufzeichnung vorzutäuschen. Eine präzise Uhrzeit ist kein Beweis für eine präzise bekannte historische Tatsache.

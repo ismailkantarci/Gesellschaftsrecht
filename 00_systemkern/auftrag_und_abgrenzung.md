@@ -35,3 +35,7 @@ Es entstehen keine neuen Vertragsabschlüsse, Konzessionen, Rollenbestellungen, 
 Eine neu hinzukommende Person kann aus dem Repository selbst den Zweck, die maßgeblichen Unterlagen, den aktuellen Bearbeitungsstand und die nächste sinnvolle Handlung finden. Für ein untersuchtes Modell sind Nutzen, Alternativen, Voraussetzungen, Leistungen, Wirtschaftlichkeit, Vertragsbezug, Führung, Risiken und Kontrollweg erkennbar.
 
 Eine Änderung lässt sich auf betroffene Bewertungen, Modelle, Prozesse und Gesellschaftsanwendungen zurückverfolgen. Unbelegte Aussagen, nicht durchgeführte Prüfungen und verworfene Varianten werden nicht verdeckt. Der Verwaltungsaufwand des Systems wird am realen Nutzen gemessen.
+
+## Vertiefte Selbstbeschreibung und technische Nachbarschaft
+
+Die [Selbstbeschreibung](selbstbeschreibung.md) erläutert Produkte, Rollen, Anwendungsbeispiele und die ausdrücklich vorgegebene Abgrenzung zu TAXIPartner_OS. Sie ist eine Auslegung dieses Auftrags, kein zweiter Oberbau. Gemeinsame Wörter rechtfertigen keine gemeinsame Datenhaltung oder automatische Übernahme. Fachliche Definition, operative Anwendung und technische Implementierung bleiben verschiedene Gegenstände; ein ausdrücklich beauftragter Transfer ist fassungsbezogen zu dokumentieren.

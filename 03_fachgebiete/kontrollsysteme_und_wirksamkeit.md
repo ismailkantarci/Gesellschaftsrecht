@@ -31,3 +31,11 @@ Veralteter Beleg, falscher Gesellschaftsbezug, fehlender Ausführender, nicht du
 Kontrollmatrix, konkrete Verfahren, Durchführungsnachweise, Feststellungen, Korrekturen und getrennte Wirksamkeitsbewertung. Eine interne Ausnahme beseitigt keine externe Verpflichtung. Der Aufwand ist mit [Kapazität](wirtschaftlichkeit_und_kapazitaet.md) und die Eingriffsmöglichkeit mit [Befugnissen](fuehrung_befugnisse_verantwortung.md) abgeglichen.
 
 Arbeitsformen: [Prozess und Kontrolle](../08_vorlagen/prozess_und_kontrolle.md), [Nachweisbewertung](../08_vorlagen/nachweisbewertung.md), [Szenarioprüfungen](../06_anwendung_und_pruefung/szenariopruefungen.md). Diese Seite behauptet kein bereits wirksames Kontrollsystem.
+
+## Kontrollentscheidung und Befundabschluss
+
+Zuerst das konkrete Fehlerszenario und das gewünschte Kontrollziel bestimmen. Dann begründen, warum Methode, Zeitpunkt und Umfang dazu passen. Eine Selbsterklärung, ein Dokumentvergleich und eine unabhängige Beobachtung liefern unterschiedliche Aussagekraft. Bei Stichproben Grundgesamtheit, Auswahl und Grenzen nennen; aus einer bestandenen Probe keine unbeschränkte Gesamtwirkung ableiten.
+
+Für die einzelne Durchführung müssen erwarteter Anlass und tatsächlich geprüfter Gegenstand zusammenpassen. Fehlender Beleg, nachgewiesene Nichtdurchführung und festgestellter Sachfehler bleiben unterscheidbar. Eine Maßnahme ist erst im bezeichneten Umfang geschlossen, wenn Korrektur und passende Nachprüfung dokumentiert sind; das bloße Erstellen einer neuen Anweisung reicht nicht.
+
+Die Kontrolle selbst kann versagen: kein zuständiger Bearbeiter, falsche Quelle, veraltete Version, ungeeignete Prüfung oder nicht verfolgter Befund. Diese Fälle sind Anlass einer Methodenprüfung. Der Journalvalidator unterstützt die Nachvollziehbarkeit der Repository-Arbeit; er ist weder ein betriebliches Kontrollsystem für alle Taxiunternehmen noch ein Prüfbeleg für eine konkrete Gesellschaft.

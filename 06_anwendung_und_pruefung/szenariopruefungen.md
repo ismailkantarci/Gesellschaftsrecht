@@ -56,3 +56,22 @@ Der Durchlauf folgte [MA-0001](../04_modelle/ma_0001_arbeitsgesellschaftermodell
 Die notwendige Handlungsregel ist in [Arbeitssteuerung](../00_systemkern/arbeitsweise_und_freigaben.md), [Prozessvorlage](../08_vorlagen/prozess_und_kontrolle.md) und [Journal](../09_arbeitsjournal/README.md) auffindbar. Diese begrenzte Lesekontrolle trägt keine Behauptung über tatsächliche Fremdannahme, externe Rechtswirkung, Echtzeitüberwachung oder alle künftigen Fälle.
 
 Das produktive Journal-Prüfprogramm wurde zusätzlich mit gültigen und absichtlich ungültigen JSON-/Git-Baum-Varianten geprüft: fehlende Pflichtfelder, falsche Zeit-/ID-/Pfadwerte, doppelte Schlüssel, unbekannte Vorgänger, Selbstreferenz und Delegationszyklus, Wiederverwendung alter Berichte, fehlende Dateiänderungsabdeckung, Änderung/Löschung veröffentlichter Ereignisse sowie Änderung versionierter Schemata. Reine Leseberichte, verknüpfte Korrekturen und historische Verweise auf später entfernte Dateien wurden als zulässige Gegenfälle berücksichtigt. Der tatsächliche Prüfumfang und verbleibende Grenzen stehen im auftragsbezogenen Journalabschluss; keine Roh-Testdaten wurden als Arbeitsbestand eingecheckt.
+
+
+## Vertiefungsprüfung zu Auftrag #2
+
+**Aufzeichnung:** 2026-09-22T22:05:34Z. **Gegenstand:** Einführungs- und Methodenverständnis sowie Journalvalidierung auf Basis `918b6157ef123645bcc760e189041daeb9a43849`. Methode: KI-gestützte Text-/Verweisprüfung und ausgeführte lokale Programmselbsttests. Keine unabhängige Zweitprüfung und keine Beobachtung eines realen Taxibetriebs. Die acht oben noch nicht ausgeführten ursprünglichen Fachszenarien bleiben dadurch unverändert offen.
+
+Beim Dokumentendurchlauf wurden die Fragen ausschließlich gegen die hierfür benannten Repository-Abschnitte aufgelöst, statt ergänzende Chatkenntnis als notwendige Arbeitsanweisung zu verwenden:
+
+| Wiedereinstiegsfrage | Auffindbare Antwort | Grenze |
+|---|---|---|
+| Gehören Partner- oder Compliance-Begriffe automatisch zum selben Repository-Gegenstand? | [OS-Abgrenzung](../00_systemkern/selbstbeschreibung.md#abgrenzung-zu-taxipartner_os) unterscheidet Fachregel, technische Umsetzung und konkret beauftragte Übergabe. | Kein Ist-Audit des anderen Repositorys. |
+| Muss vor Vertragsforschung die gesamte Unternehmenschronik rekonstruiert werden? | [Historische Fassungen](../01_quellen_und_bestand/README.md#historische-vertragsfassungen-als-forschungsbestand) ordnen Quellen und begrenzte Vergleichsaufgabe. | Tatsächliche Originale weiterhin nicht übernommen. |
+| Ist eine zugesandte Abrechnung bereits akzeptiert und abgeschlossen? | [Ergebnisübergabe](../08_vorlagen/prozess_und_kontrolle.md#ergebnisübergabe-und-annahme) trennt Versand, Bearbeitungsübernahme, Prüfung und bezeichnete Verwendung. | Kein Empfänger, keine Zustimmung und kein wirklicher Abschluss unterstellt. |
+| Belegt eine zahlenmäßig positive Rechnung die verfügbare Betreuung? | [Tragfähigkeit](../03_fachgebiete/wirtschaftlichkeit_und_kapazitaet.md) trennt Ergebnis, Liquidität, Zeit und Belastungsspitzen. | Reale Eingaben fehlen; keine Kapazitätsfreigabe. |
+| Bedeutet ein gültiges Journal bereits wirksamen Branchschutz? | [Vier Nachweise](../09_arbeitsjournal/schutz_und_betrieb.md#vier-getrennte-nachweise) trennen Regel, Prüfer, Lauf und Sperre. | Administrative Aktivierung noch blockiert. |
+
+Der lokale [Programmselbsttest](../09_arbeitsjournal/selbsttest.py) wurde mit **46 Fällen** vollständig ausgeführt. Zunächst scheiterte ein Test an einer falsch gewählten Eingabe: Der Jahreswechsel löste die Ordnerprüfung aus, bevor die beabsichtigte Vorgängerprüfung erreicht wurde. Die Eingabe wurde auf denselben Jahrgang korrigiert, ohne die Validierung abzuschwächen. Der anschließende vollständige Lauf bestand alle 46 Fälle. Die endgültige Kandidatenprüfung und ferne Läufe werden mit ihren tatsächlichen Zeiten und Referenzen im [Arbeitsjournal](../09_arbeitsjournal/README.md) nachgetragen, nicht vorweggenommen.
+
+Positive Fälle schließen unveränderte v1-Historie, gültige v2-Fortsetzung, unbekannte Zeitgrenzen, Modusänderung, gemeldete Löschung und einen belegten veröffentlichten Zwischenstand ein. Negative Fälle umfassen falsche Zeitfolgen, fehlende Zeitzone, erfundene Vorherwerte, falsche Ergebnisblobs, fehlende Änderungsspur, manipulierte historische Einträge/Schemas, unsichere Pfade und fehlende Ereignisbezüge. Das prüft Softwareverhalten gegen die erklärte Journalmethode, nicht die Wahrhaftigkeit eines Berichts.

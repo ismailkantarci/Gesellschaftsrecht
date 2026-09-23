@@ -21,3 +21,11 @@ Risikobeschreibung, Bewertungsgrundlage, erforderliche Maßnahme, verantwortlich
 ## Abnahme und Verbindungen
 
 Jede Behandlung hat Bezug zu einem Modellziel und zu [Kapazität](wirtschaftlichkeit_und_kapazitaet.md), [Führung](fuehrung_befugnisse_verantwortung.md), [Kontrolle](kontrollsysteme_und_wirksamkeit.md) oder [Änderungsarbeit](../07_aenderungen_und_verbesserung/README.md). Kritische ungeklärte Hindernisse werden vor einer Modellfreigabe ausdrücklich behandelt.
+
+## Bewertung ohne Scheingenauigkeit
+
+Ein Risiko verbindet Ursache, mögliches Ereignis und Auswirkung auf ein benanntes Modellziel. Zusätzlich Zeitraum, betroffene Rollen, Erkennbarkeit, bestehende Sicherungen und Wissenslücken festhalten. Eine Skalenbewertung ist nur mit erklärtem Maßstab vergleichbar; fehlende Daten werden nicht durch erfundene Wahrscheinlichkeiten ersetzt.
+
+Behandlung zuerst nach tatsächlicher Wirkung beurteilen: Verhindert die Maßnahme die Ursache, erkennt sie den Vorfall früher, begrenzt sie den Schaden oder verlagert sie lediglich einen Teil? Voraussetzungen, Kosten, befugte Umsetzung und verbleibendes Risiko benennen. Eine Versicherung oder Freistellung benötigt ihre eigene Vertrags-/Deckungsprüfung.
+
+Gemeinsame Personen, Fristen und Anbieter können Ausfälle koppeln. Daher nicht nur jede Gesellschaft isoliert betrachten. Eine formal mögliche Maßnahme, für die Zeit, Information oder Befugnis fehlen, ist noch keine vorhandene Sicherung. Akzeptiertes Restrisiko trägt eine tatsächlich befugte Entscheidung und einen Wiederprüfauslöser; eine gesetzliche Pflicht wird dadurch nicht aufgehoben.

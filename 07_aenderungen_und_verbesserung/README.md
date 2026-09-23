@@ -25,3 +25,9 @@ Befund, Ursache, Maßnahme und Wirkung trennen. Eine geänderte Anweisung beweis
 Materielle Änderungen nennen Datum, Grund, betroffenen Stand und Nachfolger. Veraltete Unterlagen bleiben als historisch erkennbar, aber nicht als aktuelle Vorgabe. Archiv ist kein Versteck für offene Entscheidungen.
 
 Arbeitsform: [Änderungsbewertung](../08_vorlagen/aenderungsbewertung.md). Relevante Auswahlentscheidungen gehören in das [Entscheidungsregister](../05_entscheidungen/README.md).
+
+## Entscheidung bei neuen Gegenbelegen
+
+Eine neue Quelle kann eine frühere Bewertung einschränken, ohne deren historische Existenz zu löschen. Herkunft, Zeitpunkt der Kenntnis, betroffener alter Stand, neue Bewertung und Verwendungsfolge getrennt festhalten. Ein später festgestellter Fehler benötigt eine Korrekturentscheidung und erneute Prüfung; er wird nicht durch einen anders formulierten Abschlussbericht verdeckt.
+
+Bei Auswirkungen außerhalb dieses Fachsystems gilt die [kontrollierte Übergabe](../00_systemkern/selbstbeschreibung.md#kontrollierte-übergabe-statt-gesamtkopie): genaue Fassung, betroffener Inhalt, erforderliche Rückmeldung und offene Entscheidung. Neue technische Fähigkeiten verändern kein fachliches Modell ohne Bewertung; neue Fachregeln gelten nicht als bereits implementiert.

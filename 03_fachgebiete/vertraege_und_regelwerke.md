@@ -40,3 +40,11 @@ Die Vergleichsmatrix kann als Abschnitt der vorhandenen Forschungs-/Modellakte g
 Bestehende Vertragsvarianten nicht allein auf die jüngste vereinheitlichen. Ein späterer Entwurf ist nicht automatisch der gültige Vertrag; eine historische Regelung ist nicht automatisch unbrauchbar. Neue Klauseln werden aus Regelungsziel, aktuellen einschlägigen Quellen, Interessen aller Betroffenen und nachvollziehbaren Gegenargumenten entwickelt.
 
 Jeder wichtige Vorschlag nennt Zweck, Anwendungsgrenzen, Vor-/Nachteile, Wechselwirkungen, notwendigen Prüfbedarf und Umsetzungsschritte. Ein konsolidiertes Vergleichsdokument bleibt abgeleitet. Eine neue Modellfassung, die Freigabe eines Entwurfs und eine tatsächlich vereinbarte Vertragsänderung sind getrennte Ergebnisse.
+
+## Übergang vom Vergleich zum verwendbaren Entwurf
+
+Die begründete Entwicklungsentscheidung bezeichnet, welche Regelungsgegenstände übernommen, bewusst verworfen oder noch offengehalten werden. Ein neuer Entwurf erhält einen bestimmten Modell-/Profilbezug und eine klare Fassung. Änderungsübersicht und konsolidierter Lesetext bleiben als Ableitungen erkennbar; weder eine Zustimmung noch eine Unterzeichnung wird aus ihrem Vorhandensein abgeleitet.
+
+Vor Übergabe die verwendeten Begriffe, internen Verweise, Bedingungen und Übergänge zusammenhängend prüfen. Ein geändertes Entgelt kann Leistungsumfang, Informationsbedarf und Kündigungsfolgen berühren; daher nicht nur den geänderten Absatz isoliert lesen. Interessen und Gegenrechte aller betroffenen Parteien werden sichtbar, ohne eine einseitige Optimierung als neutrale Rechtsbewertung auszugeben.
+
+Das Ergebnis kann ein zur Fachprüfung geeigneter Entwurf mit offenen Punkten sein. Erst die tatsächlich erforderliche Prüfung, Entscheidung und Mitwirkung tragen einen bezeichneten weiteren Gebrauch. Ein fünfjähriger Quellenbestand muss nicht vollständig transkribiert sein, bevor ein enger, quellenbelegter Vergleich beginnt.

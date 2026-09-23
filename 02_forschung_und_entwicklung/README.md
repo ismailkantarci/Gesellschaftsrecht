@@ -35,3 +35,9 @@ Aufnahme, Reihenfolge und Bearbeitbarkeit richten sich nach der [Arbeitssteuerun
 Jede tragende Nutzenhypothese erhält eine beobachtbare Größe, erwartete Richtung, Betrachtungszeitraum und Ausgangslage oder einen konkreten Beschaffungsweg. Aufwand, Unsicherheit und mögliche Schäden getrennt betrachten. Vor einem Versuch bestimmen, welche Beobachtung die Hypothese widerlegen würde und unter welchen Bedingungen die Untersuchung endet oder zurückgestellt wird. Unbelegte Schwellen sind Planannahmen, keine gemessenen Ergebnisse.
 
 Eine Forschungsakte kann bereits mit einer präzisen offenen Frage beginnen. Fehlen Voraussetzungen für eine Sachentscheidung, darf ihr Resultat eine beschaffbare Eingabenliste oder begründete Nichtentscheidbarkeit sein. Leere Platzhalter, unendlich wachsende Themenlisten und bloße Wiederholung sind keine Forschungsergebnisse. Auch ein Nullbefund erhält seinen geprüften Umfang und einen nächsten Schritt im [Journal](../09_arbeitsjournal/README.md).
+
+## Versuchsdesign und Lernen
+
+Eine Recherche soll zuerst die Annahme untersuchen, deren Scheitern die betrachtete Variante wesentlich infrage stellen würde. Der Versuch wird vor seiner Durchführung beschrieben: Hypothese, Methode, Messgröße, Vergleich und Entscheidungskriterium. Diese kompakte Ordnung ist eine methodische Anregung aus [QU-0010](../01_quellen_und_bestand/methodenquellen.md#qu-0010-und-qu-0011-hypothese-versuch-und-lernen), keine neue Pflicht zu externen Formularen.
+
+Nach Durchführung Beobachtungen getrennt von Schlussfolgerung und nächster Entscheidung festhalten. Auch unklare oder negative Ergebnisse sind verwertbar, wenn ihre Grenzen benannt sind. Quellen-/Methodenwechsel, geänderte Schwellen und spätere Korrekturen werden kenntlich gemacht, statt den ursprünglichen Versuchsplan rückwirkend an das gewünschte Resultat anzupassen. Eine Simulation wird nicht als Markt- oder Betriebserfahrung ausgegeben.

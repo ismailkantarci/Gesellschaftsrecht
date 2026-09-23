@@ -17,3 +17,11 @@ Datierte Strukturvarianten mit Beteiligtenrollen, Beiträgen, Rechten, Abhängig
 ## Abnahme und Verbindungen
 
 Jede wesentliche Beziehung hat eine Quelle oder ist ausdrücklich als Vorschlag gekennzeichnet. Kein Modell darf Zustimmungen, aktuelle Vertretung oder Haftungsbegrenzungen behaupten, die nicht geprüft wurden. Die Struktur wird mit [Verträgen](vertraege_und_regelwerke.md), [Führung](fuehrung_befugnisse_verantwortung.md), [Compliance](recht_compliance_anwendbarkeit.md) und [Wirtschaftlichkeit](wirtschaftlichkeit_und_kapazitaet.md) abgeglichen.
+
+## Vergleich auf Beziehungsebene
+
+Für jede untersuchte Variante eine Beziehungsmatrix führen: beteiligte Rolle, Art des Beitrags, wirtschaftliches Recht, interne Entscheidung, Außenhandlung, Informations-/Kontrollmöglichkeit, Haftungsfrage, Quelle und Zeitraum. Identische Personen mit mehreren Rollen nicht mehrfach als unabhängige Akteure zählen. Ein fehlender Quellenbeleg wird als offene Beziehung gekennzeichnet, nicht durch den üblichen Zustand eines Musters ersetzt.
+
+Danach normale Durchführung und mindestens eine bedeutende Störung durchgehen: fehlende Mitwirkung, Wegfall einer wichtigen Person, Zahlungsengpass oder Ausscheiden. Welche Leistungen bleiben erforderlich, wer kann sie tatsächlich tragen, wo fehlt eine Zustimmung oder eine echte Alternative? Eine vertragliche Zuweisung und deren tatsächliche Durchsetzbarkeit sind getrennte Bewertungen.
+
+Die Entscheidungsvorlage stellt Nutzen, Komplexität, Übergangsaufwand und ungeklärte Folgen nebeneinander. Kein Organigramm als Beweis vollständiger Trennung der Risiken verwenden. Gesellschaftsübergreifende Abhängigkeiten gehören zum Vergleich; sie erlauben keine automatische Gleichbehandlung einzelner Rechtsträger.

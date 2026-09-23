@@ -5,6 +5,8 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
 jobs:
   journal:
     runs-on: ubuntu-latest
@@ -20,6 +22,8 @@ jobs:
         run: |
           python3 -m venv "$RUNNER_TEMP/journal-venv"
           "$RUNNER_TEMP/journal-venv/bin/python" -m pip install --disable-pip-version-check jsonschema==4.26.0
+      - name: Prüfer mit Gegenfällen testen
+        run: '"$RUNNER_TEMP/journal-venv/bin/python" 09_arbeitsjournal/selbsttest.py'
       - name: Journal und Änderungen prüfen
         env:
           PR_BASE: ${{ github.event.pull_request.base.sha }}
@@ -27,8 +31,15 @@ jobs:
           EVENT_NAME: ${{ github.event_name }}
         run: |
           set -eu
+          for ref in "$PR_BASE" "$PUSH_BASE"; do
+            if [ -n "$ref" ] && ! [[ "$ref" =~ ^[0-9a-f]{40}$ ]]; then
+              echo "Ungültige Vergleichsreferenz" >&2
+              exit 1
+            fi
+          done
           if [ -n "$PR_BASE" ]; then
-            basis="$PR_BASE"
+            # Fremde Basisfortschritte sind keine Änderungen dieses PR-Auftrags.
+            basis=$(git merge-base "$PR_BASE" HEAD)
           elif [ -n "$PUSH_BASE" ] && [ "$PUSH_BASE" != "0000000000000000000000000000000000000000" ]; then
             basis="$PUSH_BASE"
           elif [ "$EVENT_NAME" = "push" ] && git rev-parse --verify origin/main >/dev/null 2>&1; then
@@ -36,4 +47,5 @@ jobs:
           else
             basis=$(git rev-parse HEAD^ 2>/dev/null || git hash-object -t tree /dev/null)
           fi
+          printf 'Vergleichsbasis: %s\nKandidat: %s\n' "$basis" "$(git rev-parse HEAD)"
           "$RUNNER_TEMP/journal-venv/bin/python" 09_arbeitsjournal/pruefen.py --basis "$basis" --ziel HEAD
