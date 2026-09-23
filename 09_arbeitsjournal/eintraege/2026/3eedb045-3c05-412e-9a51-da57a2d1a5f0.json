@@ -1,0 +1,88 @@
+{
+  "schema_version": 2,
+  "eintrag_id": "3eedb045-3c05-412e-9a51-da57a2d1a5f0",
+  "auftrag_id": "88e580f5-59ad-449c-accf-a4c967aa9fc9",
+  "uebergeordneter_auftrag": null,
+  "ereignis": "zwischenstand",
+  "zeitpunkt": "2026-09-23T12:12:29Z",
+  "arbeitszeitraum": {
+    "von": "2026-09-23T12:07:01Z",
+    "bis": "2026-09-23T12:12:29Z",
+    "zeitquelle": "systemuhr",
+    "hinweis": "Erfasste Wiederaufnahme; die ersten lesenden Werkzeugaufrufe lagen davor, ihr genauer Beginn wird nicht behauptet."
+  },
+  "akteur": {
+    "bezeichnung": "ChatGPT",
+    "typ": "ki",
+    "rolle": "Beauftragte Formularprüfung und sicherer Zweigabschluss"
+  },
+  "vorgaenger": [
+    "12db3cc9-488d-4749-9f87-59a809efc515"
+  ],
+  "korrektur_fuer": [],
+  "auftrag": {
+    "quelle": "https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2#issuecomment-5794565134",
+    "zusammenfassung": "Importiertes, noch nicht gespeichertes Ruleset anhand der Screenshots prüfen; verbleibende Pflege abschließen und nur vollständig nach main übernommene Arbeitszweige bereinigen.",
+    "erlaubter_umfang": [
+      "Aktuellen main, PRs, Zweige und einschlägige Arbeitsregeln lesen",
+      "Begrenzte technische Abschlussregel für interne Pflegezweige ergänzen und über geprüften PR veröffentlichen",
+      "Tatsächliche Löschung geeigneter Zweige und letzten main-Stand zurücklesen"
+    ],
+    "ausgeschlossen": [
+      "Keine Ruleset-Aktivierung aus einem Screenshot ableiten oder Berechtigungsgrenze umgehen",
+      "Keine ungemergten, weiterentwickelten, geschützten oder anderweitig verwendeten Zweige löschen",
+      "Keine Fachinhalte neu freigeben oder historische Journale ändern"
+    ]
+  },
+  "basis": {
+    "commit": "1cf5370fcfb3dd673a7a7896046a32e1b8a8f840",
+    "quellen": [
+      "README.md",
+      "AGENTS.md",
+      "00_systemkern/auftrag_und_abgrenzung.md",
+      "00_systemkern/arbeitsweise_und_freigaben.md",
+      "00_systemkern/informationsschutz.md",
+      "09_arbeitsjournal/schutz_und_betrieb.md",
+      "09_arbeitsjournal/schema_v2.json"
+    ]
+  },
+  "taetigkeiten": [
+    "Aktuelle Branch-/PR-/Ruleset-Listen gelesen: main und ein vollständig gemergter Pflegezweig, keine offenen PRs, keine gespeicherten Rulesets.",
+    "Screenshots geprüft: sichtbare Einstellungen passen zum Soll; weitere PR-/Statuscheck-Einstellungen sind geschlossen und nicht bestätigt.",
+    "Reguläre Werkzeugmöglichkeiten geprüft: Inhalts-/Workflowbearbeitung verfügbar, keine direkte Zweiglöschaktion oder Repositoryadministration. Kein anderer Identitätsweg verwendet."
+  ],
+  "ergebnisse": [
+    "https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2#issuecomment-5794565134"
+  ],
+  "aenderungen": [],
+  "pruefungen": [],
+  "entscheidungen": [
+    "05_entscheidungen/ent_0003_selbstbeschreibung_und_qualitaet.md"
+  ],
+  "offen": [
+    {
+      "punkt": "Technischer Zweigabschluss noch auszuführen",
+      "naechste_handlung": "Enge Bereinigung mit Herkunfts-/Nutzungsprüfung ausarbeiten, testen und regulär veröffentlichen",
+      "verantwortung": "Beauftragte Bearbeitung",
+      "ausloeser": "Laufender Fortsetzungsauftrag"
+    },
+    {
+      "punkt": "Ruleset noch nicht gespeichert; zusätzliche Einstellungen nicht sichtbar",
+      "naechste_handlung": "PR- und Statuscheck-Details im Formular aufklappen; anschließend tatsächliche Speicherung und Serverzustand bestätigen",
+      "verantwortung": "Repository-Inhaber für die Bedienung; Bearbeitung für Nachprüfung",
+      "ausloeser": "Vollständige Formularansicht und bestätigte Speicherung"
+    }
+  ],
+  "fortsetzung": {
+    "verfolgungsort": "https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2",
+    "naechste_handlung": "Zweigabschluss fertigstellen; keine früheren Inhaltspakete erneut importieren.",
+    "einstieg": [
+      "AGENTS.md",
+      "09_arbeitsjournal/schutz_und_betrieb.md"
+    ]
+  },
+  "grenzen": [
+    "Dieser Zwischenstand ist keine erfolgte Zweiglöschung oder Schutzaktivierung.",
+    "Ein Commit-/Dateivergleich ersetzt keine neue juristische oder betriebliche Prüfung."
+  ]
+}

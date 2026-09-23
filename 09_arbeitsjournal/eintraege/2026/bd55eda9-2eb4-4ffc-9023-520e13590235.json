@@ -1,0 +1,130 @@
+{
+  "schema_version": 2,
+  "eintrag_id": "bd55eda9-2eb4-4ffc-9023-520e13590235",
+  "auftrag_id": "88e580f5-59ad-449c-accf-a4c967aa9fc9",
+  "uebergeordneter_auftrag": null,
+  "ereignis": "uebergabe",
+  "zeitpunkt": "2026-09-23T12:21:43Z",
+  "arbeitszeitraum": {
+    "von": "2026-09-23T12:12:29Z",
+    "bis": "2026-09-23T12:21:43Z",
+    "zeitquelle": "systemuhr",
+    "hinweis": "Tatsächliche Prüfung und Vorbereitung; noch kein behaupteter PR-Merge dieses Eintrags."
+  },
+  "akteur": {
+    "bezeichnung": "ChatGPT",
+    "typ": "ki",
+    "rolle": "Beauftragte Formularprüfung und sicherer Zweigabschluss"
+  },
+  "vorgaenger": [
+    "3eedb045-3c05-412e-9a51-da57a2d1a5f0"
+  ],
+  "korrektur_fuer": [],
+  "auftrag": {
+    "quelle": "https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2#issuecomment-5794565134",
+    "zusammenfassung": "Importiertes, noch nicht gespeichertes Ruleset anhand der Screenshots prüfen; verbleibende Pflege abschließen und nur vollständig nach main übernommene Arbeitszweige bereinigen.",
+    "erlaubter_umfang": [
+      "Aktuellen main, PRs, Zweige und einschlägige Arbeitsregeln lesen",
+      "Begrenzte technische Abschlussregel für interne Pflegezweige ergänzen und über geprüften PR veröffentlichen",
+      "Tatsächliche Löschung geeigneter Zweige und letzten main-Stand zurücklesen"
+    ],
+    "ausgeschlossen": [
+      "Keine Ruleset-Aktivierung aus einem Screenshot ableiten oder Berechtigungsgrenze umgehen",
+      "Keine ungemergten, weiterentwickelten, geschützten oder anderweitig verwendeten Zweige löschen",
+      "Keine Fachinhalte neu freigeben oder historische Journale ändern"
+    ]
+  },
+  "basis": {
+    "commit": "1cf5370fcfb3dd673a7a7896046a32e1b8a8f840",
+    "quellen": [
+      "README.md",
+      "AGENTS.md",
+      "00_systemkern/auftrag_und_abgrenzung.md",
+      "00_systemkern/arbeitsweise_und_freigaben.md",
+      "00_systemkern/informationsschutz.md",
+      "09_arbeitsjournal/schutz_und_betrieb.md",
+      "09_arbeitsjournal/schema_v2.json"
+    ]
+  },
+  "taetigkeiten": [
+    "Die vollständig erfolgte vorherige Inhaltsaufnahme in main und das Fehlen offener PRs bestätigt; der alte Pflegezweig ist Vorfahr von main.",
+    "Einen abgegrenzten Zweigabschluss lokal entworfen und mit 26 positiven/negativen simulierten Fällen geprüft. Sein GitHub-Schreibaufruf wurde von der Werkzeug-Sicherheitskontrolle gesperrt. Den gesperrten Workflow nicht über eine andere Aktion übertragen; kein automatischer Löschdienst wurde veröffentlicht.",
+    "Nur die ausdrücklich verlangte Abschlussregel in AGENTS.md und die Formular-/Zweigabschlussanleitung im vorhandenen Betriebsdokument präzisiert. Keine Fachmodelle, historischen Journale, Schemas oder laufenden Prüfprogramme geändert.",
+    "Die 12 relativen Verweise in den zwei geänderten Dokumenten einschließlich Abschnittszielen lokal geprüft; die beiden neuen Journalereignisse gegen das unveränderte Schema v2 geprüft."
+  ],
+  "ergebnisse": [
+    "AGENTS.md#kein-offener-arbeitszweig-als-abschlussersatz",
+    "09_arbeitsjournal/schutz_und_betrieb.md#formularprüfung-vor-create",
+    "09_arbeitsjournal/schutz_und_betrieb.md#sauberer-zweigabschluss"
+  ],
+  "aenderungen": [
+    {
+      "pfad": "AGENTS.md",
+      "vorher": "41521da19a28aa5050649fad0bb92673898d9c74",
+      "nachher": "a2275fc625eb96f262f4467d67f1ffb97c740879",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    },
+    {
+      "pfad": "09_arbeitsjournal/schutz_und_betrieb.md",
+      "vorher": "3b67367e94452f504bdecb3901e3499900d7eeeb",
+      "nachher": "c5bee2c9eb5c3b3d4eef4a90705813e472dd0e6c",
+      "modus_vorher": "100644",
+      "modus_nachher": "100644"
+    }
+  ],
+  "pruefungen": [
+    {
+      "verfahren": "Lokaler Verweis- und Schemaabgleich",
+      "ergebnis": "bestanden",
+      "zeitpunkt": "2026-09-23T12:21:43Z",
+      "bezug": [
+        "09_arbeitsjournal/schema_v2.json",
+        "AGENTS.md",
+        "09_arbeitsjournal/schutz_und_betrieb.md"
+      ],
+      "grenze": "12 relative Verweise der zwei geänderten Dokumente und zwei neue JSON-Ereignisse. Kein erneuter vollständiger Fachtest; der genaue PR-Kandidat wird gesondert serverseitig geprüft."
+    },
+    {
+      "verfahren": "Ruleset-Formular und gespeicherte Regeln",
+      "ergebnis": "nicht_beurteilbar",
+      "zeitpunkt": "2026-09-23T12:21:43Z",
+      "bezug": [
+        "09_arbeitsjournal/schutzregel.json",
+        "https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2"
+      ],
+      "grenze": "Sichtbare Formularwerte passen. Die Details für PR und Statuschecks sind eingeklappt und der Auftraggeber hat Create ausdrücklich noch nicht betätigt; Ruleset-Liste leer."
+    }
+  ],
+  "entscheidungen": [
+    "05_entscheidungen/ent_0003_selbstbeschreibung_und_qualitaet.md"
+  ],
+  "offen": [
+    {
+      "punkt": "Erledigte Arbeitszweige noch nicht gelöscht",
+      "naechste_handlung": "Nach geprüftem Merge dieses Arbeitsgangs im GitHub-Bereich Branches nur die vollständig übernommenen Pflegezweige entfernen; main nicht löschen. Den aktuellen Kopf und offene PR-Nutzung vor Bedienung erneut prüfen.",
+      "verantwortung": "Repository-Inhaber mit gewöhnlicher Schreibberechtigung; der Connector bietet keine direkte Zweiglöschaktion",
+      "ausloeser": "Erfolgreicher PR-Merge und Prüfung des letzten main-Stands"
+    },
+    {
+      "punkt": "Ruleset noch nicht aktiviert; Detailwerte nicht sichtbar",
+      "naechste_handlung": "Beide Show additional settings öffnen, journal/GitHub Actions, strikte Aktualität und PR-Details abgleichen; danach Create und aktive Regel gesondert zurücklesen.",
+      "verantwortung": "Repository-Inhaber für die Bedienung; Bearbeitung für Nachprüfung",
+      "ausloeser": "Vollständige Formularansicht"
+    }
+  ],
+  "fortsetzung": {
+    "verfolgungsort": "https://github.com/ismailkantarci/Gesellschaftsrecht/issues/2",
+    "naechste_handlung": "Den hier vorbereiteten Dokument-/Journalstand über den geprüften PR nach main übernehmen; danach nur gespeicherten Regelstatus und verbleibende Zweigbereinigung weiterführen. Kein erneuter Import der früheren Qualitätspakete.",
+    "einstieg": [
+      "AGENTS.md",
+      "09_arbeitsjournal/schutz_und_betrieb.md"
+    ]
+  },
+  "grenzen": [
+    "Die untersagte Workflow-Übertragung bleibt untersagt; kein alternativer Übertragungs- oder Identitätsweg verwendet.",
+    "Dieser Bericht behauptet weder erfolgte Zweiglöschung noch gespeicherte/erprobte Schutzregel.",
+    "Sein eigener PR-/Merge-Stand entsteht erst nach diesem Eintrag und ist in Git-Historie und Issue #2 zurückzulesen.",
+    "Temporäre Entwürfe und simulierte Daten bleiben außerhalb des publizierten Baums."
+  ]
+}

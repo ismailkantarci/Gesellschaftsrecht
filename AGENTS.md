@@ -57,3 +57,7 @@ Bei neuem Einstieg die [Selbstbeschreibung](00_systemkern/selbstbeschreibung.md)
 Neue Journalereignisse verwenden das aktuelle [Schema und Zeitverfahren](09_arbeitsjournal/README.md#zeit-und-schemafortschreibung). Gelesenen Ausgangscommit, tatsächliche Tätigkeits-/Prüfzeiten und unbekannte Zeitangaben unterscheiden. Zeitstempel nicht auf einen erwarteten Erfolg oder eine erfundene frühere Durchführung setzen.
 
 Änderungen über einen begrenzten Arbeitszweig und Pull Request prüfen; den konkret geprüften Kopfstand vor Merge erneut abgleichen. Fehlgeschlagenen oder fehlenden Journalcheck nicht umgehen. Diese eigene Arbeitsregel ersetzt den noch gesondert zu bestätigenden serverseitigen [Branchschutz](09_arbeitsjournal/schutz_und_betrieb.md) nicht. Kritische Prüfer-/Workflowänderungen offen benennen; Selbstprüfung nicht als unabhängige Freigabe ausgeben.
+
+## Kein offener Arbeitszweig als Abschlussersatz
+
+Am Auftragsende den freigegebenen letzten Stand auf `main`, die tatsächlich ausgeführten Prüfungen und verbleibende PRs/Zweige zurücklesen. Ein gemergter PR allein bestätigt noch keine Zweigbereinigung. Eigene vollständig übernommene Arbeitszweige nach der [Abschlussregel](09_arbeitsjournal/schutz_und_betrieb.md#sauberer-zweigabschluss) entfernen; keine fremde oder ungemergte Arbeit als Rest behandeln. Gemergte Pflegezweige nicht für neue Arbeit wiederverwenden. Ein offener Hinderungsgrund bleibt als solcher im Auftrag, auch wenn die Inhaltsveröffentlichung abgeschlossen ist.
